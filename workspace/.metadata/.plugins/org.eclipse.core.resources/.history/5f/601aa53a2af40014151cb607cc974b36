@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+
+
+public class LastFM {
+	private String url;
+	private String api_key;
+	private Long userLimit;
+	ArrayList<ArrayList<String>> facts;
+	public String getUrl() {
+		return url;
+	}
+	public void setUrl(String url) {
+		this.url = url;
+	}
+	
+	
+}

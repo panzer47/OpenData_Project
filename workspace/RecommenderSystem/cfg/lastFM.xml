@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Last.fm>
-<root>http://ws.audioscrobbler.com/2.0/
-</root>
+<root>http://ws.audioscrobbler.com/2.0/</root>
 <userlimit>1000</userlimit>
-	<api_key>ac24a17112b7bcc80ffe29c96d5f6588 </api_key>
-<Class>User
+	<api_key>ac24a17112b7bcc80ffe29c96d5f6588</api_key>
+<Class id="User">
 <LocalType>user</LocalType>
 <method>?method=user.getFriends
-<parameter>
- 	user
-</parameter>
-<output>
-	<name>id</name>
-	<position>name</position>
-</output>
-	</method>
-<method>?method=user.getInfo
 	<parameter>
 		user
 	</parameter>
+	<output>
+		<name>id</name>
+		<position>name</position>
+	</output>
 	<output>
 		<name>Name</name>
 		<position>realname</position>
@@ -38,7 +32,7 @@
 </method>
 
 </Class>
-<Class>MusicArtist
+<Class id="MusicArtist">
 </Class>	 
 
 

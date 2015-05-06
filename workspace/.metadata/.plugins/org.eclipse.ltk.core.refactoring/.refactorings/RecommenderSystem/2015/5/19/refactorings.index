@@ -1,0 +1,4 @@
+1430941655741	Rename type 'User'
+1430942289443	Encapsulate field 'url'
+1430942293766	Encapsulate field 'userLimit'
+1430942299307	Encapsulate field 'api_key'
