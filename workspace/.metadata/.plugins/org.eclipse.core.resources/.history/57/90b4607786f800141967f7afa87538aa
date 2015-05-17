@@ -1,0 +1,6 @@
+
+public class Like {
+	private String idUser;
+	private String typeRelation;
+	private Song song;
+}

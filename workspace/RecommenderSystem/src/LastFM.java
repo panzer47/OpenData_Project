@@ -6,6 +6,7 @@ public class LastFM {
 	private String api_key;
 	private String userLimit;
 	ArrayList<ArrayList<String>> facts;
+	
 	public String getUrl() {
 		return url;
 	}

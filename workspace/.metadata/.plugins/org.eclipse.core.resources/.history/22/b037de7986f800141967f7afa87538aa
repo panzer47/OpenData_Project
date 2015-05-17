@@ -1,0 +1,12 @@
+
+public class Like {
+	private String idUser;
+	private String typeRelation;
+	private Song song;
+	public String getIdUser() {
+		return idUser;
+	}
+	public void setIdUser(String idUser) {
+		this.idUser = idUser;
+	}
+}

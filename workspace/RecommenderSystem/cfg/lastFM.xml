@@ -32,8 +32,10 @@
 </method>
 
 </Class>
-<Class id="MusicArtist">
+<Class id="track">
 </Class>	 
+<Class id="tag">
+</Class>
 
 
 </Last.fm>
