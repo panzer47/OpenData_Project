@@ -1,0 +1,8 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://example.org/ontology/" > 
+  <rdf:Description rdf:about="http://www.example.com/laputtanadituamadre">
+    <j.0:sex>sborriperterra??</j.0:sex>
+    <j.0:sex>maseisicuro?</j.0:sex>
+  </rdf:Description>
+</rdf:RDF>

@@ -71,9 +71,9 @@
 	</output>	
 </Class>
 <Relation id="ArtistSong">
-	<url>www.example.com/performed</url>
-	<origin>www.example.com/Artist</origin>
-	<destination>www.example.com/Song</destination>
+	<url>http://www.example.com/performed</url>
+	<origin>http://www.example.com/Artist</origin>
+	<destination>http://www.example.com/Song</destination>
 </Relation>
 <Relation id="like">
 	<url>www.example.com/like</url>

@@ -1,0 +1,241 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.example.com/Artist/"
+    xmlns:j.1="http://www.example.com/Song/"
+    xmlns:j.2="http://www.example.com/user/"
+    xmlns:j.3="http://www.example.com/" > 
+  <rdf:Description rdf:about="http://www.example.com/Song/374dfaf3-caa6-4cae-b8d6-2302cfc69589">
+    <j.1:artist>Ought</j.1:artist>
+    <j.1:mbid>374dfaf3-caa6-4cae-b8d6-2302cfc69589</j.1:mbid>
+    <j.1:name>Pleasant Heart</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/fc923e56-521e-40fe-bc89-730e6f3c78e0">
+    <j.3:performed rdf:resource="http://www.example.com/Song/d9d6fcb4-94fa-499a-8c48-f2d69b6908ea"/>
+    <j.0:name>Ghost Culture</j.0:name>
+    <j.0:mbid>fc923e56-521e-40fe-bc89-730e6f3c78e0</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/69158f97-4c07-4c4e-baf8-4e4ab1ed666e">
+    <j.3:performed rdf:resource="http://www.example.com/Song/0d337bb3-2c2e-424c-b172-640cb96d92a2"/>
+    <j.0:name>Boards of Canada</j.0:name>
+    <j.0:mbid>69158f97-4c07-4c4e-baf8-4e4ab1ed666e</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/c41cb7a6-d515-44a4-b21c-4967c7305d7b">
+    <j.1:artist>Imelda May</j.1:artist>
+    <j.1:mbid>c41cb7a6-d515-44a4-b21c-4967c7305d7b</j.1:mbid>
+    <j.1:name>Mayhem</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/0589aa4e-2138-4c8a-aaab-ef4a93779583">
+    <j.3:performed rdf:resource="http://www.example.com/Song/db595ead-d60e-4ed7-8bf1-6955f90d3fca"/>
+    <j.0:name>Chromatics</j.0:name>
+    <j.0:mbid>0589aa4e-2138-4c8a-aaab-ef4a93779583</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/d1515727-4a93-4c0d-88cb-d7a9fce01879">
+    <j.3:performed rdf:resource="http://www.example.com/Song/d87da388-bbcb-4fff-aa3a-6088d4105f58"/>
+    <j.0:name>Jamie xx</j.0:name>
+    <j.0:mbid>d1515727-4a93-4c0d-88cb-d7a9fce01879</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/1fc6ee4c-f9f3-4be3-9ddb-d6b4cbfc7825">
+    <j.1:artist>Courtney Barnett</j.1:artist>
+    <j.1:mbid>1fc6ee4c-f9f3-4be3-9ddb-d6b4cbfc7825</j.1:mbid>
+    <j.1:name>Pedestrian at Best</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/cf7560ef-7714-477e-b4cd-59de0a2d11fb">
+    <j.3:performed rdf:resource="http://www.example.com/Song/c41cb7a6-d515-44a4-b21c-4967c7305d7b"/>
+    <j.0:name>Imelda May</j.0:name>
+    <j.0:mbid>cf7560ef-7714-477e-b4cd-59de0a2d11fb</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/User/36461520">
+    <j.2:age>31</j.2:age>
+    <j.2:gender>female</j.2:gender>
+    <j.2:country>UK</j.2:country>
+    <j.2:name>Fran</j.2:name>
+    <j.2:id>36461520</j.2:id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/af5062cd-ffba-4020-83ea-07183c663365">
+    <j.1:artist>Simply Red</j.1:artist>
+    <j.1:mbid>af5062cd-ffba-4020-83ea-07183c663365</j.1:mbid>
+    <j.1:name>Money's Too Tight (To Mention)</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/0533243f-7f44-44a4-8571-8e8c4cc8d1a1">
+    <j.1:artist>Sun Kil Moon</j.1:artist>
+    <j.1:mbid>0533243f-7f44-44a4-8571-8e8c4cc8d1a1</j.1:mbid>
+    <j.1:name>I Can't Live Without My Mother's Love</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/55111838-f001-494a-a1b5-9d818db85810">
+    <j.3:performed rdf:resource="http://www.example.com/Song/1fc6ee4c-f9f3-4be3-9ddb-d6b4cbfc7825"/>
+    <j.0:name>Courtney Barnett</j.0:name>
+    <j.0:mbid>55111838-f001-494a-a1b5-9d818db85810</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/ef2c6449-d02b-415b-ad8c-c14c08266552">
+    <j.3:performed rdf:resource="http://www.example.com/Song/0533243f-7f44-44a4-8571-8e8c4cc8d1a1"/>
+    <j.0:name>Sun Kil Moon</j.0:name>
+    <j.0:mbid>ef2c6449-d02b-415b-ad8c-c14c08266552</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/f8d80560-3aab-4b26-8c66-c66fae4bfa1e">
+    <j.1:artist>Luther Vandross</j.1:artist>
+    <j.1:mbid>f8d80560-3aab-4b26-8c66-c66fae4bfa1e</j.1:mbid>
+    <j.1:name>Never Too Much</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/b071f9fa-14b0-4217-8e97-eb41da73f598">
+    <j.3:performed rdf:resource="http://www.example.com/Song/d1079902-3b08-4ea3-830c-821256863d86"/>
+    <j.0:name>The Rolling Stones</j.0:name>
+    <j.0:mbid>b071f9fa-14b0-4217-8e97-eb41da73f598</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/e2305342-0bde-4a2c-aed0-4b88694834de">
+    <j.3:performed rdf:resource="http://www.example.com/Song/e7cbd970-7a0f-490b-90ff-448540cf0c75"/>
+    <j.0:name>Unknown Mortal Orchestra</j.0:name>
+    <j.0:mbid>e2305342-0bde-4a2c-aed0-4b88694834de</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/db595ead-d60e-4ed7-8bf1-6955f90d3fca">
+    <j.1:artist>Chromatics</j.1:artist>
+    <j.1:mbid>db595ead-d60e-4ed7-8bf1-6955f90d3fca</j.1:mbid>
+    <j.1:name>Kill for Love</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/d9d6fcb4-94fa-499a-8c48-f2d69b6908ea">
+    <j.1:artist>Ghost Culture</j.1:artist>
+    <j.1:mbid>d9d6fcb4-94fa-499a-8c48-f2d69b6908ea</j.1:mbid>
+    <j.1:name>Arms</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/a039f1f1-e664-4aee-a917-426514734aa0">
+    <j.3:performed rdf:resource="http://www.example.com/Song/374dfaf3-caa6-4cae-b8d6-2302cfc69589"/>
+    <j.0:name>Ought</j.0:name>
+    <j.0:mbid>a039f1f1-e664-4aee-a917-426514734aa0</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/4435aee5-9787-437f-a710-861fcf2a1c7d">
+    <j.3:performed rdf:resource="http://www.example.com/Song/7ba2bed3-4ea6-4ea7-bba3-d8173f938d39"/>
+    <j.0:name>ChÃ¢teau Flight</j.0:name>
+    <j.0:mbid>4435aee5-9787-437f-a710-861fcf2a1c7d</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/4f4370ab-205a-4f4a-8f5b-bbc9f3dd3c39">
+    <j.1:artist>Solange</j.1:artist>
+    <j.1:mbid>4f4370ab-205a-4f4a-8f5b-bbc9f3dd3c39</j.1:mbid>
+    <j.1:name>Losing You</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/2f4bdd1a-b856-471d-b773-d716ea501f37">
+    <j.1:artist>Vessels</j.1:artist>
+    <j.1:mbid>2f4bdd1a-b856-471d-b773-d716ea501f37</j.1:mbid>
+    <j.1:name>On Your Own Ten Toes</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/816d9b5d-eaf9-4a97-b5f7-6e82cd01aafe">
+    <j.3:performed rdf:resource="http://www.example.com/Song/f8d80560-3aab-4b26-8c66-c66fae4bfa1e"/>
+    <j.0:name>Luther Vandross</j.0:name>
+    <j.0:mbid>816d9b5d-eaf9-4a97-b5f7-6e82cd01aafe</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/User/21550768">
+    <j.2:age>36</j.2:age>
+    <j.2:gender>male</j.2:gender>
+    <j.2:country>UK</j.2:country>
+    <j.2:name>Matt Knapman</j.2:name>
+    <j.2:id>21550768</j.2:id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/d21d2ef6-8968-4e25-b2ed-2cbdb8a53b04">
+    <j.1:artist>East India Youth</j.1:artist>
+    <j.1:mbid>d21d2ef6-8968-4e25-b2ed-2cbdb8a53b04</j.1:mbid>
+    <j.1:name>Hinterland</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/User/6425992">
+    <j.2:age>39</j.2:age>
+    <j.2:gender>male</j.2:gender>
+    <j.2:country>UK</j.2:country>
+    <j.2:name>Mass Dosage</j.2:name>
+    <j.2:id>6425992</j.2:id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/410e7fd3-b865-4fa0-bb18-1b7fd53382ca">
+    <j.3:performed rdf:resource="http://www.example.com/Song/4f4370ab-205a-4f4a-8f5b-bbc9f3dd3c39"/>
+    <j.0:name>Solange</j.0:name>
+    <j.0:mbid>410e7fd3-b865-4fa0-bb18-1b7fd53382ca</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/d1079902-3b08-4ea3-830c-821256863d86">
+    <j.1:artist>The Rolling Stones</j.1:artist>
+    <j.1:mbid>d1079902-3b08-4ea3-830c-821256863d86</j.1:mbid>
+    <j.1:name>Far Away Eyes</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/User/7737850">
+    <j.2:age>33</j.2:age>
+    <j.2:gender>male</j.2:gender>
+    <j.2:country>UK</j.2:country>
+    <j.2:name>Michael Coffey</j.2:name>
+    <j.2:id>7737850</j.2:id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/7ba2bed3-4ea6-4ea7-bba3-d8173f938d39">
+    <j.1:artist>ChÃ¢teau Flight</j.1:artist>
+    <j.1:mbid>7ba2bed3-4ea6-4ea7-bba3-d8173f938d39</j.1:mbid>
+    <j.1:name>Superflight (Maurice Fulton remix)</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/e7cbd970-7a0f-490b-90ff-448540cf0c75">
+    <j.1:artist>Unknown Mortal Orchestra</j.1:artist>
+    <j.1:mbid>e7cbd970-7a0f-490b-90ff-448540cf0c75</j.1:mbid>
+    <j.1:name>Multi-Love</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/46e2ea0e-b023-4ba6-b43a-d95615d7b6cd">
+    <j.3:performed rdf:resource="http://www.example.com/Song/2f4bdd1a-b856-471d-b773-d716ea501f37"/>
+    <j.0:name>Vessels</j.0:name>
+    <j.0:mbid>46e2ea0e-b023-4ba6-b43a-d95615d7b6cd</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/0d337bb3-2c2e-424c-b172-640cb96d92a2">
+    <j.1:artist>Boards of Canada</j.1:artist>
+    <j.1:mbid>0d337bb3-2c2e-424c-b172-640cb96d92a2</j.1:mbid>
+    <j.1:name>Dayvan Cowboy</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/73a9da54-c6d0-4d40-a693-36ab462a9c86">
+    <j.3:performed rdf:resource="http://www.example.com/Song/d21d2ef6-8968-4e25-b2ed-2cbdb8a53b04"/>
+    <j.0:name>East India Youth</j.0:name>
+    <j.0:mbid>73a9da54-c6d0-4d40-a693-36ab462a9c86</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/021dbd3e-c8f4-4c57-9a22-96ca36286ab1">
+    <j.1:artist>Alvvays</j.1:artist>
+    <j.1:mbid>021dbd3e-c8f4-4c57-9a22-96ca36286ab1</j.1:mbid>
+    <j.1:name>Party Police</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/527c65d1-9fdb-4482-8796-dde2980bd63a">
+    <j.3:performed rdf:resource="http://www.example.com/Song/19ced806-f81e-43bb-bc7b-725af41f2b5f"/>
+    <j.0:name>Neneh Cherry</j.0:name>
+    <j.0:mbid>527c65d1-9fdb-4482-8796-dde2980bd63a</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/19ced806-f81e-43bb-bc7b-725af41f2b5f">
+    <j.1:artist>Neneh Cherry</j.1:artist>
+    <j.1:mbid>19ced806-f81e-43bb-bc7b-725af41f2b5f</j.1:mbid>
+    <j.1:name>Buffalo Stance</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/99450990-b24e-4132-bb68-235f8c3e2564">
+    <j.3:performed rdf:resource="http://www.example.com/Song/021dbd3e-c8f4-4c57-9a22-96ca36286ab1"/>
+    <j.0:name>Alvvays</j.0:name>
+    <j.0:mbid>99450990-b24e-4132-bb68-235f8c3e2564</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/87c5dedd-371d-4a53-9f7f-80522fb7f3cb">
+    <j.3:performed rdf:resource="http://www.example.com/Song/4f0b8755-4630-43a9-b5e3-b906e0fb2bb9"/>
+    <j.0:name>BjÃ¶rk</j.0:name>
+    <j.0:mbid>87c5dedd-371d-4a53-9f7f-80522fb7f3cb</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/4f0b8755-4630-43a9-b5e3-b906e0fb2bb9">
+    <j.1:artist>BjÃ¶rk</j.1:artist>
+    <j.1:mbid>4f0b8755-4630-43a9-b5e3-b906e0fb2bb9</j.1:mbid>
+    <j.1:name>Bachelorette</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/120affdb-e27d-46ab-a261-b5a7317aab91">
+    <j.1:artist>Leftfield</j.1:artist>
+    <j.1:mbid>120affdb-e27d-46ab-a261-b5a7317aab91</j.1:mbid>
+    <j.1:name>Afro-Left</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/142415a7-ebe7-4beb-99c6-ca03c332d259">
+    <j.3:performed rdf:resource="http://www.example.com/Song/af5062cd-ffba-4020-83ea-07183c663365"/>
+    <j.0:name>Simply Red</j.0:name>
+    <j.0:mbid>142415a7-ebe7-4beb-99c6-ca03c332d259</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/User/2930743">
+    <j.2:gender>female</j.2:gender>
+    <j.2:country></j.2:country>
+    <j.2:name>â˜…â™¥â˜… Badass Mod from the Future - Last Seen Tomorrow Afternoonâ˜…â™¥â˜…</j.2:name>
+    <j.2:id>2930743</j.2:id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/369fbad4-6fa4-4dae-9842-a69826cd359d">
+    <j.3:performed rdf:resource="http://www.example.com/Song/120affdb-e27d-46ab-a261-b5a7317aab91"/>
+    <j.0:name>Leftfield</j.0:name>
+    <j.0:mbid>369fbad4-6fa4-4dae-9842-a69826cd359d</j.0:mbid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/d87da388-bbcb-4fff-aa3a-6088d4105f58">
+    <j.1:artist>Jamie xx</j.1:artist>
+    <j.1:mbid>d87da388-bbcb-4fff-aa3a-6088d4105f58</j.1:mbid>
+    <j.1:name>Gosh</j.1:name>
+  </rdf:Description>
+</rdf:RDF>

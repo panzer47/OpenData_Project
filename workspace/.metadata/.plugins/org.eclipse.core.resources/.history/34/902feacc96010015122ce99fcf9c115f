@@ -157,7 +157,7 @@ public class WriteTriples {
 			}
 			NodeList relations = doc.getElementsByTagName("Relation");
 			boolean trovato=false;
-			
+			/*
 			for (int i = 0; (i < relations.getLength()&&trovato==false); i++) {
 				System.out.println(((Element) relations.item(i))
 						.getAttribute("id"));
@@ -202,7 +202,7 @@ public class WriteTriples {
 					or.addProperty(p, des);
 					
 				}
-			}
+			}*/
 		}
 		String nameFile = "testSQL.rdf";
 		PrintWriter writer = new PrintWriter(nameFile, "UTF-8");

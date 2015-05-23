@@ -1,6 +1,0 @@
-
-public class WriteTriples {
- public static void buildTriples(List<Object> list){
-	 
- }
-}

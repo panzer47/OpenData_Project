@@ -432,7 +432,6 @@ public class AskToLastFm {
 							found=true;
 						}
 					}
-					if(a.getMbid().length()>0 && toAdd.getMbid().length()>0) {
 					if (!found) song.add(toAdd);
 					/*if(!song.contains(toAdd)){
 						song.add(toAdd);					
@@ -448,7 +447,7 @@ public class AskToLastFm {
 					if(!artist.contains(a) ){					
 						artist.add(a);					
 					}*/
-					
+					if(a.getMbid().length()>0 && toAdd.getMbid().length()>0) {
 					Like newLike= new Like();
 					newLike.setIdUser(user);
 					newLike.setSong(toAdd);

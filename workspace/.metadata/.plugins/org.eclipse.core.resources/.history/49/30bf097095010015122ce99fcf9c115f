@@ -197,7 +197,6 @@ public class WriteTriples {
 					
 					Resource or=m.getResource(origin+"/"+relazione[0]);
 					Resource des=m.getResource(destination+"/"+relazione[1]);
-					//or.addP
 					Property p=m.createProperty(url);
 					or.addProperty(p, des);
 					

@@ -23,4 +23,8 @@
 <fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.ModelFactory"/>
 <fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.Model"/>
 <fullyQualifiedTypeName name="Datatypes.Artist"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.Resource"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.Property"/>
+<fullyQualifiedTypeName name="Datatypes.ArtistSong"/>
 </qualifiedTypeNameHistroy>

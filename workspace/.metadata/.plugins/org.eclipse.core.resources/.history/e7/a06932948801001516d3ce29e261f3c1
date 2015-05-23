@@ -157,7 +157,6 @@ public class WriteTriples {
 			}
 			NodeList relations = doc.getElementsByTagName("Relation");
 			boolean trovato=false;
-			
 			for (int i = 0; (i < relations.getLength()&&trovato==false); i++) {
 				System.out.println(((Element) relations.item(i))
 						.getAttribute("id"));
@@ -197,7 +196,6 @@ public class WriteTriples {
 					
 					Resource or=m.getResource(origin+"/"+relazione[0]);
 					Resource des=m.getResource(destination+"/"+relazione[1]);
-					//or.addP
 					Property p=m.createProperty(url);
 					or.addProperty(p, des);
 					

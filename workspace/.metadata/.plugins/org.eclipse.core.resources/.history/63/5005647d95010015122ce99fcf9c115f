@@ -37,14 +37,12 @@ public class XMLParserLastFM {
 		obj.setUrl(root.item(0).getTextContent() );
 		
 		Model m=ModelFactory.createDefaultModel();
-		Resource r=m.createResource("http://www.example.com/laputtanadituamadre" );
-		Property sex=m.createProperty("http://example.org/ontology/sex");
-		r.addProperty(sex, "maseisicuro?");
-		Resource r2=m.getResource("http://www.example.com"+"/"+"laputtanadituamadre");
-		r2.addProperty(sex, "sborriperterra??");
-		String nameFile="testSQ2L.rdf";
-		PrintWriter writer = new PrintWriter(nameFile, "UTF-8");
-		m.write( writer, "RDF/XML");
+		//Resource r=m.createResource("http://www.example.com/laputtanadituamadre" );
+	//	Property sex=m.createProperty("http://example.org/ontology/sex");
+	//	r.addProperty(sex, "maseisicuro?");
+		String nameFile="testSQL.rdf";
+	//	PrintWriter writer = new PrintWriter(nameFile, "UTF-8");
+//		m.write( writer, "RDF/XML");
 		NodeList api_key=doc.getElementsByTagName("api_key");		
 		System.out.println(api_key.item(0).getTextContent());
 		obj.setApi_key( api_key.item(0).getTextContent() );
