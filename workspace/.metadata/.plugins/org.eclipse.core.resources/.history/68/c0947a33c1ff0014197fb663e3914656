@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class WriteTriples {
+ public static void buildTriples(ArrayList<Object> list){
+	for(int i=0;i<list.size(); i++) {
+		if ( list.get(i) instanceof "Song" ) {
+			
+		}
+	}
+ }
+}

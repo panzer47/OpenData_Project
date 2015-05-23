@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+import java.util.List;
+
+import com.hp.hpl.jena.rdf.model.Model;
+import com.hp.hpl.jena.rdf.model.ModelFactory;
+
+
+public class WriteTriples {
+ public static void buildTriples(ArrayList<Object> list){
+	 Model m=ModelFactory.createDefaultModel();
+	for(int i=0;i<list.size(); i++) {
+		
+		if ( list.get(i).getClass().toString().equals("Class") ) {
+			
+		}
+	}
+ }
+ 
+ public static void readXML(){}
+}

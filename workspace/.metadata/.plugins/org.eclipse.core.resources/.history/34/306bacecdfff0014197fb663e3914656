@@ -1,0 +1,89 @@
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
+
+import others.LastFM;
+import Datatypes.Artist;
+
+import com.hp.hpl.jena.rdf.model.Model;
+import com.hp.hpl.jena.rdf.model.ModelFactory;
+
+
+public class WriteTriples {
+	
+	public static void main(int args[]) {
+		ArrayList<Object> test=new ArrayList<Object>();
+		/*for(int i=0;i<100;i++) {
+			Artist a=new Artist();
+			a.setName("a"+i);
+			User
+		}*/
+	}
+ public static void buildTriples(List<Object> fullList) throws ParserConfigurationException,SAXException, IOException{
+	//Model m=ModelFactory.createDefaultModel();
+	
+	 File xml = new File("cfg/lastFM.xml");
+		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+		Document doc = dBuilder.parse(xml);
+		doc.getDocumentElement().normalize();
+		NodeList nList = doc.getElementsByTagName("Class");
+	for(int i=0;i<fullList.size(); i++) {
+		// I FIRST WRITE CLASSES
+		
+		//String classes[]=new String[nList.getLength()];
+		for(int l=0;l<nList.getLength();l++){			
+			//System.out.println( ((Element) nList.item(l)).getAttribute("id"));
+			String classes=((Element) nList.item(l)).getAttribute("id");
+			//System.out.println( fullList.get(i).getClass().toString() );
+			 String a=fullList.get(i).getClass().toString();
+			 a=a.substring(16);//5+1+10
+			if ( a.equals(classes) ) {
+				System.out.println("yuppie"+classes);
+				fullList.get(i).toString();
+			}
+			//classes[i]=((Element) nList.item(l)).getAttribute("id");
+			//ArrayList<String> table=new ArrayList();
+			//table.add(((Element) nList.item(l)).getAttribute("id"));
+		}
+		
+		
+	}
+	
+ }
+ 
+ 	public static void readXML(String toSearch) throws ParserConfigurationException,SAXException, IOException {
+	 File xml = new File("cfg/lastFM.xml");
+		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+		Document doc = dBuilder.parse(xml);
+		doc.getDocumentElement().normalize();
+		LastFM obj=new LastFM();
+		//System.out.println("Root element :" + doc.getDocumentElement().getNodeName());		
+		
+		
+		NodeList nList = doc.getElementsByTagName("Class");
+		
+		String classes[]=new String[nList.getLength()];
+		for(int i=0;i<nList.getLength();i++){			
+			System.out.println( ((Element) nList.item(i)).getAttribute("id"));
+			classes[i]=((Element) nList.item(i)).getAttribute("id");
+			ArrayList<String> table=new ArrayList();
+			table.add(((Element) nList.item(i)).getAttribute("id"));
+		}
+		
+		
+	}
+	 
+ }
+

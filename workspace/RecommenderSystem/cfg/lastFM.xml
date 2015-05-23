@@ -3,39 +3,87 @@
 <root>http://ws.audioscrobbler.com/2.0/</root>
 <userlimit>1000</userlimit>
 	<api_key>ac24a17112b7bcc80ffe29c96d5f6588</api_key>
-<Class id="User">
-<LocalType>user</LocalType>
-<method>?method=user.getFriends
-	<parameter>
-		user
-	</parameter>
-	<output>
-		<name>id</name>
-		<position>name</position>
-	</output>
-	<output>
-		<name>Name</name>
-		<position>realname</position>
-	</output>
-	<output>
-		<name>Country</name>
-		<position>Country</position>
-	</output>
-	<output>
-		<name>sex</name>
-		<position>gender</position>
-	</output>
-	<output>
-		<name>age</name>
-		<position>age</position>
-	</output>
-</method>
-
+<Class id="User" key="1">
+<url>http://www.example.com/User/</url>
+<output>
+	<name>id</name>
+	<position>name</position>
+	<url>http://www.example.com/user/id</url>
+</output>
+<output>
+	<name>name</name>
+	<position>realname</position>
+	<url>http://www.example.com/user/name</url>
+</output>
+<output>
+	<name>Country</name>
+	<position>Country</position>
+	<url>http://www.example.com/user/country</url>
+</output>
+<output>
+	<name>sex</name>
+	<position>gender</position>
+	<url>http://www.example.com/user/gender</url>
+</output>
+<output>
+	<name>age</name>
+	<position>age</position>
+	<url>http://www.example.com/user/age</url>
+</output>
 </Class>
-<Class id="track">
+<Class id="Artist" key="1">
+	<url>http://www.example.com/Artist/</url>
+<output>
+	<name>mbid</name>
+	<position>mbid</position>
+	<url>http://www.example.com/Artist/mbid</url>
+</output>
+<output>
+	<name>name</name>
+	<position>name</position>
+	<url>http://www.example.com/Artist/name</url>
+</output>
+</Class>
+<Class id="Song" key="2">
+<url>http://www.example.com/Song/</url>
+<output>
+	<name>name</name>
+	<position>name</position>
+	<url>http://www.example.com/Song/name</url>
+</output>
+<output>
+	<name>mbid</name>
+	<position>mbid</position>
+	<url>http://www.example.com/Song/mbid</url>
+</output>
+<output>
+	<name>artist</name>
+	<position>artist</position>
+	<url>http://www.example.com/Song/artist</url>
+</output>
 </Class>	 
-<Class id="tag">
+<Class id="Tag" key="1">
+	<url>http://www.example.com/tag/</url>
+	<output>
+		<name>name</name>
+		<position>name</position>
+		<url>http://www.example.com/tag/name</url>
+	</output>	
 </Class>
-
+<Relation id="ArtistSong">
+	<url>www.example.com/performed</url>
+	<origin>www.example.com/Artist</origin>
+	<destination>www.example.com/Song</destination>
+</Relation>
+<Relation id="like">
+	<url>www.example.com/like</url>
+	<origin>www.example.com/User</origin>
+	<destination>www.example.com/Song</destination>
+</Relation>
+<Relation id="dislike">
+	<url>www.example.com/dislike/</url>
+	<origin>www.example.com/User</origin>
+	<destination>www.example.com/Song</destination>
+</Relation>
 
 </Last.fm>

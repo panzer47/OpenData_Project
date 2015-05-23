@@ -17,7 +17,10 @@
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="org.xml.sax.InputSource"/>
 <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.net.URLEncoder"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.ModelFactory"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.Model"/>
+<fullyQualifiedTypeName name="Datatypes.Artist"/>
 </qualifiedTypeNameHistroy>

@@ -1,5 +1,0 @@
-
-public class Tag<T> {
-	String name;
-	T label;
-}

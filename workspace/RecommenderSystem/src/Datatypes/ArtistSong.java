@@ -1,0 +1,22 @@
+package Datatypes;
+
+public class ArtistSong {
+	private String idSong;
+	private String idArtist;
+	public String getIdSong() {
+		return idSong;
+	}
+	public void setIdSong(String idSong) {
+		this.idSong = idSong;
+	}
+	public String getIdArtist() {
+		return idArtist;
+	}
+	public void setIdArtist(String idArtist) {
+		this.idArtist = idArtist;
+	}
+	public String toString(){
+		return idArtist+"//"+idSong;
+	}
+	
+}

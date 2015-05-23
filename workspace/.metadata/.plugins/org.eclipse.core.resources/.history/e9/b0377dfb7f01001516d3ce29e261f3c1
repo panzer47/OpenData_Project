@@ -1,0 +1,13 @@
+package Datatypes;
+
+public class ArtistSong {
+	private String idSong;
+	private String idArtist;
+	public String getIdSong() {
+		return idSong;
+	}
+	public void setIdSong(String idSong) {
+		this.idSong = idSong;
+	}
+	
+}

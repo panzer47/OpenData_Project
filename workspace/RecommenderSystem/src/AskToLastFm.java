@@ -26,6 +26,15 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
+import others.LastFM;
+import Datatypes.Artist;
+import Datatypes.ArtistSong;
+import Datatypes.IsDescribed;
+import Datatypes.Like;
+import Datatypes.Song;
+import Datatypes.Tag;
+import Datatypes.User;
+
 
 public class AskToLastFm {
  final static String ApiKey="ac24a17112b7bcc80ffe29c96d5f6588";
@@ -47,9 +56,9 @@ public class AskToLastFm {
 	 
  }
  
- public static void main(String[] args) throws ParserConfigurationException, SAXException, InterruptedException, UnsupportedEncodingException  {
+ public static void main(String[] args) throws ParserConfigurationException, SAXException, InterruptedException, IOException  {
 	//String tempurl="http://ws.audioscrobbler.com/2.0/?method=user.getplaylists&user=panzerr&api_key=ac24a17112b7bcc80ffe29c96d5f6588&format=json";
-	 String id="rj"; int lim=25;
+	 String id="rj"; int lim=5;
 	 ArrayList<String> listIDusers=new ArrayList<String>();
 	 List<User> users=new ArrayList<User>();
 	 List<Artist> artists=new ArrayList<Artist>();
@@ -57,34 +66,40 @@ public class AskToLastFm {
 	 List<Tag> tags=new ArrayList<Tag>();
 	 List<Song> songs=new ArrayList<Song>();
 	 List<Like> like=new ArrayList<Like>();
+	 List<ArtistSong> artistsong=new ArrayList<ArtistSong>();
 	 //List<>
-     searchUsers(id, 1000, listIDusers, users);
+     searchUsers(id, lim, listIDusers, users);
  // System.out.println("trololol + "+listIDusers.size()+"- "+users.get(19).getSex());
   for(int i=0; i<listIDusers.size();i++) {
-	 // searchLikes(listIDusers.get(i), lim, songs, artists, like, "LIKE" );
-	  //searchLikes(listIDusers.get(i), lim, songs, artists, like, "DISLIKE" );
-	  //searchTags();
+	  searchLikes(listIDusers.get(i), lim, songs, artists, artistsong, like, "LIKE" );
+	 // searchLikes(listIDusers.get(i), lim, songs, artists, like, "DISLIKE" );
+	  
   }
   System.out.println("1- "+users.size()+"- "+artists.size()+" - "+like.size()+" - "+ songs.size());
   int lilly=0;
   for(int i=0;i<artists.size();i++) {
 	 // System.out.println("artistname: "+artists.get(i).getName());
-	  //tagsPerArtist(artists.get(i), relations,tags, 5 );
+	 // tagsPerArtist(artists.get(i), relations,tags, 5 );
 	  if(artists.get(i).getMbid().isEmpty()) lilly++;
   }
   System.out.println("artists null: "+lilly+" full: "+(songs.size()-lilly) );
   lilly=0;
   for(int i=0;i<songs.size();i++) {
 	  //System.out.println("songname: "+ songs.get(i).getName()+"artist: "+songs.get(i).getArtist() );
-	 // tagsPerSongs(songs.get(i), relations, tags, 5);
+	//  tagsPerSongs(songs.get(i), relations, tags, 5);
 	  if(songs.get(i).getMbid().isEmpty()) lilly++;
   }
-  for(int i=0; i<users.size()-1;i++) {
-	  for(int k=i+1; k<users.size();k++) {
-		  if(users.get(i).getId().equals( users.get(k).getId())) System.out.println("MADONNA PUTTANA E MAIALA E SCHIFOSA");;
-	  }
-  }
+  
   System.out.println("songs null: "+lilly+" full: "+( songs.size()-lilly ));
+  List<Object> fullList=new ArrayList<Object>();
+  fullList.addAll(users);
+  fullList.addAll(artists);
+  fullList.addAll(relations);
+  fullList.addAll(tags);
+  fullList.addAll(songs);
+  fullList.addAll(like);
+  fullList.addAll(artistsong);
+  WriteTriples.buildTriples(fullList);
  }
  
  
@@ -330,7 +345,7 @@ public class AskToLastFm {
 	 }
  }
  
- private static void searchLikes(String user, int lim, List<Song> song, List<Artist> artist, List<Like> likes, String type) throws ParserConfigurationException, SAXException, InterruptedException {
+ private static void searchLikes(String user, int lim, List<Song> song, List<Artist> artist, List<ArtistSong> artistsong, List<Like> likes, String type) throws ParserConfigurationException, SAXException, InterruptedException {
 	 String tempurl;
 	 if(type.equals("LIKE")) {
 		 tempurl=rootURL+"?method=user.getlovedTracks&user="+user+"&limit="+lim+"&api_key="+ApiKey;
@@ -380,7 +395,9 @@ public class AskToLastFm {
 				//System.out.println(  );
 				NodeList intra=nList.item(i).getChildNodes();
 				Song toAdd=new Song();
+				//toAdd.setMbid("NULL");
 				Artist a=new Artist();
+			//	a.setMbid("NULL");
 				for(int l=0; l<intra.getLength();l++) {
 						
 					if(intra.item(l).getNodeName().equals("name")) {
@@ -409,32 +426,39 @@ public class AskToLastFm {
 					
 				}
 				boolean found=false;
-				for(int j=0; j<song.size();j++){
-					if(song.get(j).getName().equals(toAdd.getName())) {
-						found=true;
+			//	if(!toAdd.getMbid().equals("NULL") && !a.getMbid().equals("NULL")) {
+					for(int j=0; j<song.size();j++){
+						if(song.get(j).getName().equals(toAdd.getName())) {
+							found=true;
+						}
 					}
-				}
-				if (!found) song.add(toAdd);
-				/*if(!song.contains(toAdd)){
-					song.add(toAdd);					
-				}*/
-				found=false;
-				for(int j=0; j<artist.size();j++){
-					if(artist.get(j).getName().equals(a.getName())) {
-						found=true;
+					if (!found) song.add(toAdd);
+					/*if(!song.contains(toAdd)){
+						song.add(toAdd);					
+					}*/
+					found=false;
+					for(int j=0; j<artist.size();j++){
+						if(artist.get(j).getName().equals(a.getName())) {
+							found=true;
+						}
 					}
-				}
-				if(!found) artist.add(a);
-				/*
-				if(!artist.contains(a) ){					
-					artist.add(a);					
-				}*/
-				Like newLike= new Like();
-				newLike.setIdUser(user);
-				newLike.setSong(toAdd);
-				newLike.setTypeRelation(type);
-				likes.add(newLike);
-				
+					if(!found) artist.add(a);
+					/*
+					if(!artist.contains(a) ){					
+						artist.add(a);					
+					}*/
+					Like newLike= new Like();
+					newLike.setIdUser(user);
+					newLike.setSong(toAdd);
+					newLike.setTypeRelation(type);
+					likes.add(newLike);
+					if(a.getMbid().length()>0 && toAdd.getMbid().length()>0) {
+						ArtistSong relation=new ArtistSong();
+						relation.setIdArtist(a.getMbid());
+						relation.setIdSong(toAdd.getMbid());
+						artistsong.add(relation);
+					}
+				//}
 			}
 			TimeUnit.MILLISECONDS.sleep(111);
 			in.close();
