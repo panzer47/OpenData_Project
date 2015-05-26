@@ -29,6 +29,7 @@ import org.xml.sax.SAXException;
 import others.LastFM;
 import Datatypes.Artist;
 import Datatypes.ArtistSong;
+import Datatypes.Dislike;
 import Datatypes.IsDescribed;
 import Datatypes.Like;
 import Datatypes.Song;
@@ -66,13 +67,14 @@ public class AskToLastFm {
 	 List<Tag> tags=new ArrayList<Tag>();
 	 List<Song> songs=new ArrayList<Song>();
 	 List<Like> like=new ArrayList<Like>();
+	 List<Dislike> dislike=new ArrayList<Dislike>();
 	 List<ArtistSong> artistsong=new ArrayList<ArtistSong>();
 	 //List<>
      searchUsers(id, lim, listIDusers, users);
  // System.out.println("trololol + "+listIDusers.size()+"- "+users.get(19).getSex());
   for(int i=0; i<listIDusers.size();i++) {
-	  searchLikes(listIDusers.get(i), lim, songs, artists, artistsong, like, "LIKE" );
-	 // searchLikes(listIDusers.get(i), lim, songs, artists, like, "DISLIKE" );
+	  searchLikes(listIDusers.get(i), lim, songs, artists, artistsong, like, dislike, "LIKE" );
+	  searchLikes(listIDusers.get(i), lim, songs, artists, artistsong, like,dislike, "DISLIKE" );
 	  
   }
   System.out.println("1- "+users.size()+"- "+artists.size()+" - "+like.size()+" - "+ songs.size());
@@ -96,9 +98,11 @@ public class AskToLastFm {
   fullList.addAll(artists);
   fullList.addAll(relations);
   fullList.addAll(tags);
+  fullList.addAll(dislike);
   fullList.addAll(songs);
   fullList.addAll(like);
   fullList.addAll(artistsong);
+  
   WriteTriples.buildTriples(fullList);
  }
  
@@ -345,7 +349,7 @@ public class AskToLastFm {
 	 }
  }
  
- private static void searchLikes(String user, int lim, List<Song> song, List<Artist> artist, List<ArtistSong> artistsong, List<Like> likes, String type) throws ParserConfigurationException, SAXException, InterruptedException {
+ private static void searchLikes(String user, int lim, List<Song> song, List<Artist> artist, List<ArtistSong> artistsong, List<Like> likes, List<Dislike> dislike, String type) throws ParserConfigurationException, SAXException, InterruptedException {
 	 String tempurl;
 	 if(type.equals("LIKE")) {
 		 tempurl=rootURL+"?method=user.getlovedTracks&user="+user+"&limit="+lim+"&api_key="+ApiKey;
@@ -449,12 +453,19 @@ public class AskToLastFm {
 						artist.add(a);					
 					}*/
 					
-					Like newLike= new Like();
-					newLike.setIdUser(user);
-					newLike.setSong(toAdd);
-					newLike.setTypeRelation(type);
-					likes.add(newLike);
-					
+					if (type.equals("LIKE")){
+						Like newLike= new Like();
+						newLike.setIdUser(user);
+						newLike.setSong(toAdd);
+						//newLike.setTypeRelation(type);
+						likes.add(newLike);
+					}else{
+						Dislike dlike= new Dislike();
+						dlike.setIdUser(user);
+						dlike.setSong(toAdd);
+						//newLike.setTypeRelation(type);
+						dislike.add(dlike);
+					}
 						ArtistSong relation=new ArtistSong();
 						relation.setIdArtist(a.getMbid());
 						relation.setIdSong(toAdd.getMbid());

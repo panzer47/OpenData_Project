@@ -206,7 +206,7 @@ public class WriteTriples {
 		}
 		String nameFile = "testSQL.rdf";
 		PrintWriter writer = new PrintWriter(nameFile, "UTF-8");
-		m.write(writer, "RDF/XML");
+		m.write(writer, "Turtle");
 	}
 
 	public static void readXML(String toSearch)
