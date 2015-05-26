@@ -4,7 +4,7 @@ package Datatypes;
 public class Like {
 	private String idUser;
 	//private String typeRelation;
-	private Song song;
+	private String song;
 	public String getIdUser() {
 		return idUser;
 	}
@@ -17,10 +17,10 @@ public class Like {
 	public void setTypeRelation(String typeRelation) {
 		this.typeRelation = typeRelation;
 	}*/
-	public Song getSong() {
+	public String getSong() {
 		return song;
 	}
-	public void setSong(Song song) {
+	public void setSong(String song) {
 		this.song = song;
 	}
 	

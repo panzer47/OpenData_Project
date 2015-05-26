@@ -1,0 +1,22 @@
+package Datatypes;
+
+public class SongDescribed {
+	private String tag;
+	private String label;
+	public String getTag() {
+		return tag;
+	}
+	public void setTag(String name) {
+		this.tag = name;
+	}
+	public String getLabel() {
+		return label;
+	}
+	public void setLabel(String label) {
+		this.label = label;
+	}
+	
+	public String toString(){
+		return label+"//"+tag;
+	}
+}

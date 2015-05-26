@@ -30,9 +30,10 @@ import others.LastFM;
 import Datatypes.Artist;
 import Datatypes.ArtistSong;
 import Datatypes.Dislike;
-import Datatypes.IsDescribed;
+import Datatypes.ArtistDescribed;
 import Datatypes.Like;
 import Datatypes.Song;
+import Datatypes.SongDescribed;
 import Datatypes.Tag;
 import Datatypes.User;
 
@@ -63,7 +64,8 @@ public class AskToLastFm {
 	 ArrayList<String> listIDusers=new ArrayList<String>();
 	 List<User> users=new ArrayList<User>();
 	 List<Artist> artists=new ArrayList<Artist>();
-	 List<IsDescribed> relations=new ArrayList<IsDescribed>();
+	 List<ArtistDescribed> relations=new ArrayList<ArtistDescribed>();
+	 List<SongDescribed> relations2=new ArrayList<SongDescribed>();
 	 List<Tag> tags=new ArrayList<Tag>();
 	 List<Song> songs=new ArrayList<Song>();
 	 List<Like> like=new ArrayList<Like>();
@@ -81,14 +83,14 @@ public class AskToLastFm {
   int lilly=0;
   for(int i=0;i<artists.size();i++) {
 	 // System.out.println("artistname: "+artists.get(i).getName());
-	 // tagsPerArtist(artists.get(i), relations,tags, 5 );
+	 tagsPerArtist(artists.get(i), relations,tags, 5 );
 	  if(artists.get(i).getMbid().isEmpty()) lilly++;
   }
   System.out.println("artists null: "+lilly+" full: "+(songs.size()-lilly) );
   lilly=0;
   for(int i=0;i<songs.size();i++) {
 	  //System.out.println("songname: "+ songs.get(i).getName()+"artist: "+songs.get(i).getArtist() );
-	//  tagsPerSongs(songs.get(i), relations, tags, 5);
+	  tagsPerSongs(songs.get(i), relations2, tags, 5);
 	  if(songs.get(i).getMbid().isEmpty()) lilly++;
   }
   
@@ -96,10 +98,12 @@ public class AskToLastFm {
   List<Object> fullList=new ArrayList<Object>();
   fullList.addAll(users);
   fullList.addAll(artists);
-  fullList.addAll(relations);
-  fullList.addAll(tags);
-  fullList.addAll(dislike);
   fullList.addAll(songs);
+  fullList.addAll(tags);
+  fullList.addAll(relations);
+  fullList.addAll(relations2);
+  fullList.addAll(dislike);
+  System.out.println(relations.size()+" - 00 "+relations2.size());
   fullList.addAll(like);
   fullList.addAll(artistsong);
   
@@ -107,7 +111,7 @@ public class AskToLastFm {
  }
  
  
- private static void tagsPerSongs(Song song, List<IsDescribed> relations, List<Tag> tags, int lim) throws InterruptedException, ParserConfigurationException, SAXException, UnsupportedEncodingException {
+ private static void tagsPerSongs(Song song, List<SongDescribed> relations, List<Tag> tags, int lim) throws InterruptedException, ParserConfigurationException, SAXException, UnsupportedEncodingException {
 	 String codeSong=(URLEncoder.encode(song.getName(), "UTF-8"));
 	 String codeArtist=(URLEncoder.encode(song.getArtist(), "UTF-8"));
 	 String tempurl;
@@ -155,7 +159,7 @@ public class AskToLastFm {
 				//System.out.println(  );
 				NodeList intra=nList.item(i).getChildNodes();
 				Tag toAdd=new Tag();
-				IsDescribed<Song> relation=new IsDescribed<Song>();
+				SongDescribed relation=new SongDescribed();
 				for(int l=0; l<intra.getLength()&&lim>tagFounded;l++) {
 					
 					
@@ -168,8 +172,11 @@ public class AskToLastFm {
 						if(!tags.contains(toAdd)) {
 							tags.add(toAdd);
 						}
+						
 						relation.setTag(intra.item(l).getTextContent() );
-						relation.setLabel(song);
+						relation.setLabel(song.getMbid());
+						relations.add(relation);
+						//relations.add(relation);
 						tagFounded++;
 					}
 				}				
@@ -189,7 +196,7 @@ public class AskToLastFm {
  }
  
  
- private static void tagsPerArtist(Artist artist, List<IsDescribed> relations, List<Tag> tags, int lim) throws InterruptedException, ParserConfigurationException, SAXException, UnsupportedEncodingException {
+ private static void tagsPerArtist(Artist artist, List<ArtistDescribed> relations, List<Tag> tags, int lim) throws InterruptedException, ParserConfigurationException, SAXException, UnsupportedEncodingException {
 	 String codeArtist=(URLEncoder.encode(artist.getMbid(), "UTF-8"));
 	 String tempurl=rootURL+"?method=artist.gettoptags&mbid="+codeArtist+"&api_key="+ApiKey;
 	 int tagFounded=0;
@@ -231,7 +238,7 @@ public class AskToLastFm {
 				//System.out.println(  );
 				NodeList intra=nList.item(i).getChildNodes();
 				Tag toAdd=new Tag();
-				IsDescribed<Artist> relation=new IsDescribed<Artist>();
+				ArtistDescribed relation=new ArtistDescribed();
 				for(int l=0; l<intra.getLength()&&lim>tagFounded;l++) {
 					
 					
@@ -245,7 +252,8 @@ public class AskToLastFm {
 							tags.add(toAdd);
 						}
 						relation.setTag(intra.item(l).getTextContent() );
-						relation.setLabel(artist);
+						relation.setLabel(artist.getMbid());
+						relations.add(relation);
 						tagFounded++;
 					}
 				}				
@@ -456,13 +464,13 @@ public class AskToLastFm {
 					if (type.equals("LIKE")){
 						Like newLike= new Like();
 						newLike.setIdUser(user);
-						newLike.setSong(toAdd);
+						newLike.setSong(toAdd.getMbid());
 						//newLike.setTypeRelation(type);
 						likes.add(newLike);
 					}else{
 						Dislike dlike= new Dislike();
 						dlike.setIdUser(user);
-						dlike.setSong(toAdd);
+						dlike.setSong(toAdd.getMbid());
 						//newLike.setTypeRelation(type);
 						dislike.add(dlike);
 					}

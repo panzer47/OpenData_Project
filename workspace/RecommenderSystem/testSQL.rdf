@@ -1,42 +1,15 @@
-<http://www.example.com/Song/78532513-0857-4907-9d65-42d17ead370b>
-        <http://www.example.com/Song/artist>
-                "Linkin Park" ;
-        <http://www.example.com/Song/mbid>
-                "78532513-0857-4907-9d65-42d17ead370b" ;
-        <http://www.example.com/Song/name>
-                "Papercut" .
+<www.example.com/Song/60ef3385-6b0e-4a90-9b9a-73ee0044ebd9>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/Alexisonfire> , <www.example.com/Tag/emo> , <www.example.com/Tag/hardcore> , <www.example.com/Tag/post-hardcore> , <www.example.com/Tag/screamo> .
 
-<http://www.example.com/Artist/4435aee5-9787-437f-a710-861fcf2a1c7d>
-        <http://www.example.com/Artist/mbid>
-                "4435aee5-9787-437f-a710-861fcf2a1c7d" ;
-        <http://www.example.com/Artist/name>
-                "ChÃ¢teau Flight" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/7ba2bed3-4ea6-4ea7-bba3-d8173f938d39> .
+<http://www.example.com/tag/rock>
+        <http://www.example.com/tag/name>
+                "rock" ;
+        <rdf:type>  "LastFMTag" .
 
-<http://www.example.com/Artist/0d20c42d-133c-429d-8f76-3c2458aee3e8>
-        <http://www.example.com/Artist/mbid>
-                "0d20c42d-133c-429d-8f76-3c2458aee3e8" ;
-        <http://www.example.com/Artist/name>
-                "Balance and Composure" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/19e62681-7a64-4545-a704-5a924f6888b5> .
-
-<http://www.example.com/Artist/69158f97-4c07-4c4e-baf8-4e4ab1ed666e>
-        <http://www.example.com/Artist/mbid>
-                "69158f97-4c07-4c4e-baf8-4e4ab1ed666e" ;
-        <http://www.example.com/Artist/name>
-                "Boards of Canada" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/0d337bb3-2c2e-424c-b172-640cb96d92a2> .
-
-<http://www.example.com/Song/d9d6fcb4-94fa-499a-8c48-f2d69b6908ea>
-        <http://www.example.com/Song/artist>
-                "Ghost Culture" ;
-        <http://www.example.com/Song/mbid>
-                "d9d6fcb4-94fa-499a-8c48-f2d69b6908ea" ;
-        <http://www.example.com/Song/name>
-                "Arms" .
+<http://www.example.com/tag/afrobeat>
+        <http://www.example.com/tag/name>
+                "afrobeat" ;
+        <rdf:type>  "LastFMTag" .
 
 <http://www.example.com/Artist/656ad517-b741-47ba-845a-e6ea223d8b39>
         <http://www.example.com/Artist/mbid>
@@ -44,249 +17,33 @@
         <http://www.example.com/Artist/name>
                 "Maggie Reilly" ;
         <http://www.example.com/performed>
-                <http://www.example.com/Song/cbaab7db-3897-45bd-90e7-828f79059ef8> .
+                <http://www.example.com/Song/cbaab7db-3897-45bd-90e7-828f79059ef8> ;
+        <rdf:type>  "LastFMArtist" .
 
-<http://www.example.com/User/21550768>
-        <http://www.example.com/user/age>
-                "36" ;
-        <http://www.example.com/user/country>
-                "UK" ;
-        <http://www.example.com/user/gender>
-                "male" ;
-        <http://www.example.com/user/id>
-                "21550768" ;
-        <http://www.example.com/user/name>
-                "Matt Knapman" .
+<http://www.example.com/tag/2012>
+        <http://www.example.com/tag/name>
+                "2012" ;
+        <rdf:type>  "LastFMTag" .
 
-<http://www.example.com/Song/186ad283-bb18-49ae-851c-2fd4a49e4053>
-        <http://www.example.com/Song/artist>
-                "The Intelligence" ;
-        <http://www.example.com/Song/mbid>
-                "186ad283-bb18-49ae-851c-2fd4a49e4053" ;
-        <http://www.example.com/Song/name>
-                "Sunny Backyard" .
+<http://www.example.com/tag/downtempo>
+        <http://www.example.com/tag/name>
+                "downtempo" ;
+        <rdf:type>  "LastFMTag" .
 
-<http://www.example.com/Artist/ef2c6449-d02b-415b-ad8c-c14c08266552>
-        <http://www.example.com/Artist/mbid>
-                "ef2c6449-d02b-415b-ad8c-c14c08266552" ;
-        <http://www.example.com/Artist/name>
-                "Sun Kil Moon" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/0533243f-7f44-44a4-8571-8e8c4cc8d1a1> .
+<http://www.example.com/tag/alternative>
+        <http://www.example.com/tag/name>
+                "alternative" ;
+        <rdf:type>  "LastFMTag" .
 
-<http://www.example.com/Song/0702eecf-27d1-4372-9bd6-2b0fb794ceff>
-        <http://www.example.com/Song/artist>
-                "R. Kelly" ;
-        <http://www.example.com/Song/mbid>
-                "0702eecf-27d1-4372-9bd6-2b0fb794ceff" ;
-        <http://www.example.com/Song/name>
-                "Ignition Remix" .
+<http://www.example.com/tag/indie pop>
+        <http://www.example.com/tag/name>
+                "indie pop" ;
+        <rdf:type>  "LastFMTag" .
 
-<http://www.example.com/Artist/d1515727-4a93-4c0d-88cb-d7a9fce01879>
-        <http://www.example.com/Artist/mbid>
-                "d1515727-4a93-4c0d-88cb-d7a9fce01879" ;
-        <http://www.example.com/Artist/name>
-                "Jamie xx" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/d87da388-bbcb-4fff-aa3a-6088d4105f58> .
-
-<http://www.example.com/Song/1fc6ee4c-f9f3-4be3-9ddb-d6b4cbfc7825>
-        <http://www.example.com/Song/artist>
-                "Courtney Barnett" ;
-        <http://www.example.com/Song/mbid>
-                "1fc6ee4c-f9f3-4be3-9ddb-d6b4cbfc7825" ;
-        <http://www.example.com/Song/name>
-                "Pedestrian at Best" .
-
-<http://www.example.com/Artist/bf0caafc-2b20-4e07-ab85-87e14ff430ce>
-        <http://www.example.com/Artist/mbid>
-                "bf0caafc-2b20-4e07-ab85-87e14ff430ce" ;
-        <http://www.example.com/Artist/name>
-                "Spice Girls" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/16b3b830-c6ae-4259-a0c1-95a88f39b92e> .
-
-<http://www.example.com/Artist/527c65d1-9fdb-4482-8796-dde2980bd63a>
-        <http://www.example.com/Artist/mbid>
-                "527c65d1-9fdb-4482-8796-dde2980bd63a" ;
-        <http://www.example.com/Artist/name>
-                "Neneh Cherry" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/19ced806-f81e-43bb-bc7b-725af41f2b5f> .
-
-<http://www.example.com/Artist/859216c4-5d01-479b-b6c3-e20cc591a86a>
-        <http://www.example.com/Artist/mbid>
-                "859216c4-5d01-479b-b6c3-e20cc591a86a" ;
-        <http://www.example.com/Artist/name>
-                "Daphni" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/f0ba7fa3-ecd0-4916-9749-770e51079504> , <http://www.example.com/Song/dc55fc91-20ab-4a32-83e8-944351c2102a> .
-
-<http://www.example.com/Artist/6778f7b9-5da5-43dc-a890-72d169042723>
-        <http://www.example.com/Artist/mbid>
-                "6778f7b9-5da5-43dc-a890-72d169042723" ;
-        <http://www.example.com/Artist/name>
-                "Austrian Death Machine" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/e19ee975-5444-465a-b5b0-e8099ed16765> .
-
-<http://www.example.com/Song/437c059c-431d-4ddb-b112-041897188861>
-        <http://www.example.com/Song/artist>
-                "R. Kelly" ;
-        <http://www.example.com/Song/mbid>
-                "437c059c-431d-4ddb-b112-041897188861" ;
-        <http://www.example.com/Song/name>
-                "It Seems Like You're Ready" .
-
-<http://www.example.com/Song/e19ee975-5444-465a-b5b0-e8099ed16765>
-        <http://www.example.com/Song/artist>
-                "Austrian Death Machine" ;
-        <http://www.example.com/Song/mbid>
-                "e19ee975-5444-465a-b5b0-e8099ed16765" ;
-        <http://www.example.com/Song/name>
-                "Jingle Bells" .
-
-<http://www.example.com/Artist/410e7fd3-b865-4fa0-bb18-1b7fd53382ca>
-        <http://www.example.com/Artist/mbid>
-                "410e7fd3-b865-4fa0-bb18-1b7fd53382ca" ;
-        <http://www.example.com/Artist/name>
-                "Solange" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/4f4370ab-205a-4f4a-8f5b-bbc9f3dd3c39> .
-
-<http://www.example.com/Artist/0e509d26-547e-4019-87ea-9af325c77134>
-        <http://www.example.com/Artist/mbid>
-                "0e509d26-547e-4019-87ea-9af325c77134" ;
-        <http://www.example.com/Artist/name>
-                "Dub Taylor" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/e78b11be-dcba-4d03-965c-dce434b52fb0> .
-
-<http://www.example.com/Song/0533243f-7f44-44a4-8571-8e8c4cc8d1a1>
-        <http://www.example.com/Song/artist>
-                "Sun Kil Moon" ;
-        <http://www.example.com/Song/mbid>
-                "0533243f-7f44-44a4-8571-8e8c4cc8d1a1" ;
-        <http://www.example.com/Song/name>
-                "I Can't Live Without My Mother's Love" .
-
-<http://www.example.com/Artist/369fbad4-6fa4-4dae-9842-a69826cd359d>
-        <http://www.example.com/Artist/mbid>
-                "369fbad4-6fa4-4dae-9842-a69826cd359d" ;
-        <http://www.example.com/Artist/name>
-                "Leftfield" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/120affdb-e27d-46ab-a261-b5a7317aab91> .
-
-<http://www.example.com/Artist/cf7560ef-7714-477e-b4cd-59de0a2d11fb>
-        <http://www.example.com/Artist/mbid>
-                "cf7560ef-7714-477e-b4cd-59de0a2d11fb" ;
-        <http://www.example.com/Artist/name>
-                "Imelda May" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/c41cb7a6-d515-44a4-b21c-4967c7305d7b> .
-
-<http://www.example.com/User/36461520>
-        <http://www.example.com/user/age>
-                "31" ;
-        <http://www.example.com/user/country>
-                "UK" ;
-        <http://www.example.com/user/gender>
-                "female" ;
-        <http://www.example.com/user/id>
-                "36461520" ;
-        <http://www.example.com/user/name>
-                "Fran" .
-
-<http://www.example.com/Artist/bc1c8f3f-6f36-4086-a470-87ed813dd429>
-        <http://www.example.com/Artist/mbid>
-                "bc1c8f3f-6f36-4086-a470-87ed813dd429" ;
-        <http://www.example.com/Artist/name>
-                "Alexisonfire" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/60ef3385-6b0e-4a90-9b9a-73ee0044ebd9> .
-
-<http://www.example.com/Song/d87da388-bbcb-4fff-aa3a-6088d4105f58>
-        <http://www.example.com/Song/artist>
-                "Jamie xx" ;
-        <http://www.example.com/Song/mbid>
-                "d87da388-bbcb-4fff-aa3a-6088d4105f58" ;
-        <http://www.example.com/Song/name>
-                "Gosh" .
-
-<http://www.example.com/Artist/8c538f11-c141-4588-8ecb-931083524186>
-        <http://www.example.com/Artist/mbid>
-                "8c538f11-c141-4588-8ecb-931083524186" ;
-        <http://www.example.com/Artist/name>
-                "Bloc Party" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/84a5e741-4b9e-445a-bed1-9bf8be126280> .
-
-<http://www.example.com/Song/22a61fdc-25fd-4739-8f96-ac981cf8578e>
-        <http://www.example.com/Song/artist>
-                "Matthew Dear" ;
-        <http://www.example.com/Song/mbid>
-                "22a61fdc-25fd-4739-8f96-ac981cf8578e" ;
-        <http://www.example.com/Song/name>
-                "Midnight Lovers" .
-
-<http://www.example.com/Song/19ced806-f81e-43bb-bc7b-725af41f2b5f>
-        <http://www.example.com/Song/artist>
-                "Neneh Cherry" ;
-        <http://www.example.com/Song/mbid>
-                "19ced806-f81e-43bb-bc7b-725af41f2b5f" ;
-        <http://www.example.com/Song/name>
-                "Buffalo Stance" .
-
-<http://www.example.com/Song/c41cb7a6-d515-44a4-b21c-4967c7305d7b>
-        <http://www.example.com/Song/artist>
-                "Imelda May" ;
-        <http://www.example.com/Song/mbid>
-                "c41cb7a6-d515-44a4-b21c-4967c7305d7b" ;
-        <http://www.example.com/Song/name>
-                "Mayhem" .
-
-<http://www.example.com/Artist/142415a7-ebe7-4beb-99c6-ca03c332d259>
-        <http://www.example.com/Artist/mbid>
-                "142415a7-ebe7-4beb-99c6-ca03c332d259" ;
-        <http://www.example.com/Artist/name>
-                "Simply Red" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/af5062cd-ffba-4020-83ea-07183c663365> .
-
-<http://www.example.com/Song/4f0b8755-4630-43a9-b5e3-b906e0fb2bb9>
-        <http://www.example.com/Song/artist>
-                "BjÃ¶rk" ;
-        <http://www.example.com/Song/mbid>
-                "4f0b8755-4630-43a9-b5e3-b906e0fb2bb9" ;
-        <http://www.example.com/Song/name>
-                "Bachelorette" .
-
-<http://www.example.com/Song/af5062cd-ffba-4020-83ea-07183c663365>
-        <http://www.example.com/Song/artist>
-                "Simply Red" ;
-        <http://www.example.com/Song/mbid>
-                "af5062cd-ffba-4020-83ea-07183c663365" ;
-        <http://www.example.com/Song/name>
-                "Money's Too Tight (To Mention)" .
-
-<http://www.example.com/Song/374dfaf3-caa6-4cae-b8d6-2302cfc69589>
-        <http://www.example.com/Song/artist>
-                "Ought" ;
-        <http://www.example.com/Song/mbid>
-                "374dfaf3-caa6-4cae-b8d6-2302cfc69589" ;
-        <http://www.example.com/Song/name>
-                "Pleasant Heart" .
-
-<http://www.example.com/User/2930743>
-        <http://www.example.com/user/country>
-                "" ;
-        <http://www.example.com/user/gender>
-                "female" ;
-        <http://www.example.com/user/id>
-                "2930743" ;
-        <http://www.example.com/user/name>
-                "â˜…â™¥â˜… Badass Mod from the Future - Last Seen Tomorrow Afternoonâ˜…â™¥â˜…" .
+<http://www.example.com/tag/Maggie Reilly>
+        <http://www.example.com/tag/name>
+                "Maggie Reilly" ;
+        <rdf:type>  "LastFMTag" .
 
 <http://www.example.com/Artist/0589aa4e-2138-4c8a-aaab-ef4a93779583>
         <http://www.example.com/Artist/mbid>
@@ -294,31 +51,83 @@
         <http://www.example.com/Artist/name>
                 "Chromatics" ;
         <http://www.example.com/performed>
-                <http://www.example.com/Song/db595ead-d60e-4ed7-8bf1-6955f90d3fca> .
+                <http://www.example.com/Song/db595ead-d60e-4ed7-8bf1-6955f90d3fca> ;
+        <rdf:type>  "LastFMArtist" .
 
-<http://www.example.com/Song/f0ba7fa3-ecd0-4916-9749-770e51079504>
-        <http://www.example.com/Song/artist>
-                "Daphni" ;
-        <http://www.example.com/Song/mbid>
-                "f0ba7fa3-ecd0-4916-9749-770e51079504" ;
-        <http://www.example.com/Song/name>
-                "I Know Your Secret" .
+<http://www.example.com/tag/hardcore>
+        <http://www.example.com/tag/name>
+                "hardcore" ;
+        <rdf:type>  "LastFMTag" .
 
-<http://www.example.com/Song/0d337bb3-2c2e-424c-b172-640cb96d92a2>
-        <http://www.example.com/Song/artist>
-                "Boards of Canada" ;
-        <http://www.example.com/Song/mbid>
-                "0d337bb3-2c2e-424c-b172-640cb96d92a2" ;
-        <http://www.example.com/Song/name>
-                "Dayvan Cowboy" .
+<http://www.example.com/Artist/142415a7-ebe7-4beb-99c6-ca03c332d259>
+        <http://www.example.com/Artist/mbid>
+                "142415a7-ebe7-4beb-99c6-ca03c332d259" ;
+        <http://www.example.com/Artist/name>
+                "Simply Red" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/af5062cd-ffba-4020-83ea-07183c663365> ;
+        <rdf:type>  "LastFMArtist" .
 
-<http://www.example.com/Song/16b3b830-c6ae-4259-a0c1-95a88f39b92e>
+<http://www.example.com/tag/ambient>
+        <http://www.example.com/tag/name>
+                "ambient" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Artist/527c65d1-9fdb-4482-8796-dde2980bd63a>
+        <http://www.example.com/Artist/mbid>
+                "527c65d1-9fdb-4482-8796-dde2980bd63a" ;
+        <http://www.example.com/Artist/name>
+                "Neneh Cherry" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/19ced806-f81e-43bb-bc7b-725af41f2b5f> ;
+        <rdf:type>  "LastFMArtist" .
+
+<http://www.example.com/tag/Grunge>
+        <http://www.example.com/tag/name>
+                "Grunge" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/Garage Rock>
+        <http://www.example.com/tag/name>
+                "Garage Rock" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Artist/46e2ea0e-b023-4ba6-b43a-d95615d7b6cd>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/electronic> , <www.example.com/Tag/metalcore> , <www.example.com/Tag/experimental> , <www.example.com/Tag/math rock> , <www.example.com/Tag/post-rock> .
+
+<http://www.example.com/tag/trip-hop>
+        <http://www.example.com/tag/name>
+                "trip-hop" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/rel-mnth:2015:February>
+        <http://www.example.com/tag/name>
+                "rel-mnth:2015:February" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/singer-songwriter>
+        <http://www.example.com/tag/name>
+                "singer-songwriter" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/dub>
+        <http://www.example.com/tag/name>
+                "dub" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/Scottish>
+        <http://www.example.com/tag/name>
+                "Scottish" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Song/af5062cd-ffba-4020-83ea-07183c663365>
         <http://www.example.com/Song/artist>
-                "Spice Girls" ;
+                "Simply Red" ;
         <http://www.example.com/Song/mbid>
-                "16b3b830-c6ae-4259-a0c1-95a88f39b92e" ;
+                "af5062cd-ffba-4020-83ea-07183c663365" ;
         <http://www.example.com/Song/name>
-                "Mama" .
+                "Money's Too Tight (To Mention)" ;
+        <rdf:type>  "LastFMSong" .
 
 <http://www.example.com/User/7737850>
         <http://www.example.com/user/age>
@@ -330,23 +139,25 @@
         <http://www.example.com/user/id>
                 "7737850" ;
         <http://www.example.com/user/name>
-                "Michael Coffey" .
+                "Michael Coffey" ;
+        <rdf:type>  "LastFMUser" .
 
-<http://www.example.com/Song/d21d2ef6-8968-4e25-b2ed-2cbdb8a53b04>
-        <http://www.example.com/Song/artist>
-                "East India Youth" ;
-        <http://www.example.com/Song/mbid>
-                "d21d2ef6-8968-4e25-b2ed-2cbdb8a53b04" ;
-        <http://www.example.com/Song/name>
-                "Hinterland" .
-
-<http://www.example.com/Artist/f59c5520-5f46-4d2c-b2c4-822eabf53419>
+<http://www.example.com/Artist/6778f7b9-5da5-43dc-a890-72d169042723>
         <http://www.example.com/Artist/mbid>
-                "f59c5520-5f46-4d2c-b2c4-822eabf53419" ;
+                "6778f7b9-5da5-43dc-a890-72d169042723" ;
         <http://www.example.com/Artist/name>
-                "Linkin Park" ;
+                "Austrian Death Machine" ;
         <http://www.example.com/performed>
-                <http://www.example.com/Song/78532513-0857-4907-9d65-42d17ead370b> .
+                <http://www.example.com/Song/e19ee975-5444-465a-b5b0-e8099ed16765> ;
+        <rdf:type>  "LastFMArtist" .
+
+<http://www.example.com/tag/uk bass>
+        <http://www.example.com/tag/name>
+                "uk bass" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Artist/656ad517-b741-47ba-845a-e6ea223d8b39>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/Pop-Rock> , <www.example.com/Tag/80s> , <www.example.com/Tag/Scottish> , <www.example.com/Tag/female vocalists> , <www.example.com/Tag/pop> .
 
 <http://www.example.com/Song/19e62681-7a64-4545-a704-5a924f6888b5>
         <http://www.example.com/Song/artist>
@@ -354,87 +165,31 @@
         <http://www.example.com/Song/mbid>
                 "19e62681-7a64-4545-a704-5a924f6888b5" ;
         <http://www.example.com/Song/name>
-                "Pull Of The Ground" .
+                "Pull Of The Ground" ;
+        <rdf:type>  "LastFMSong" .
 
-<http://www.example.com/Artist/73a9da54-c6d0-4d40-a693-36ab462a9c86>
-        <http://www.example.com/Artist/mbid>
-                "73a9da54-c6d0-4d40-a693-36ab462a9c86" ;
-        <http://www.example.com/Artist/name>
-                "East India Youth" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/d21d2ef6-8968-4e25-b2ed-2cbdb8a53b04> .
+<http://www.example.com/tag/britpop>
+        <http://www.example.com/tag/name>
+                "britpop" ;
+        <rdf:type>  "LastFMTag" .
 
-<http://www.example.com/Artist/11ab49a5-fd58-4905-997d-57e70064e893>
-        <http://www.example.com/Artist/mbid>
-                "11ab49a5-fd58-4905-997d-57e70064e893" ;
-        <http://www.example.com/Artist/name>
-                "The Intelligence" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/186ad283-bb18-49ae-851c-2fd4a49e4053> .
-
-<http://www.example.com/Song/db595ead-d60e-4ed7-8bf1-6955f90d3fca>
+<http://www.example.com/Song/60ef3385-6b0e-4a90-9b9a-73ee0044ebd9>
         <http://www.example.com/Song/artist>
-                "Chromatics" ;
+                "Alexisonfire" ;
         <http://www.example.com/Song/mbid>
-                "db595ead-d60e-4ed7-8bf1-6955f90d3fca" ;
+                "60ef3385-6b0e-4a90-9b9a-73ee0044ebd9" ;
         <http://www.example.com/Song/name>
-                "Kill for Love" .
+                ".44 Caliber Love Letter" ;
+        <rdf:type>  "LastFMSong" .
 
-<http://www.example.com/Song/dc55fc91-20ab-4a32-83e8-944351c2102a>
-        <http://www.example.com/Song/artist>
-                "Daphni" ;
-        <http://www.example.com/Song/mbid>
-                "dc55fc91-20ab-4a32-83e8-944351c2102a" ;
-        <http://www.example.com/Song/name>
-                "Rush" .
-
-<http://www.example.com/Song/00fe3587-6e41-4420-bfb8-457174297c3b>
-        <http://www.example.com/Song/artist>
-                "Soft Cell" ;
-        <http://www.example.com/Song/mbid>
-                "00fe3587-6e41-4420-bfb8-457174297c3b" ;
-        <http://www.example.com/Song/name>
-                "Say Hello, Wave Goodbye" .
-
-<http://www.example.com/Song/7ba2bed3-4ea6-4ea7-bba3-d8173f938d39>
-        <http://www.example.com/Song/artist>
-                "ChÃ¢teau Flight" ;
-        <http://www.example.com/Song/mbid>
-                "7ba2bed3-4ea6-4ea7-bba3-d8173f938d39" ;
-        <http://www.example.com/Song/name>
-                "Superflight (Maurice Fulton remix)" .
-
-<http://www.example.com/Song/e78b11be-dcba-4d03-965c-dce434b52fb0>
-        <http://www.example.com/Song/artist>
-                "Dub Taylor" ;
-        <http://www.example.com/Song/mbid>
-                "e78b11be-dcba-4d03-965c-dce434b52fb0" ;
-        <http://www.example.com/Song/name>
-                "Clash!" .
-
-<http://www.example.com/Artist/46e2ea0e-b023-4ba6-b43a-d95615d7b6cd>
+<http://www.example.com/Artist/bf0caafc-2b20-4e07-ab85-87e14ff430ce>
         <http://www.example.com/Artist/mbid>
-                "46e2ea0e-b023-4ba6-b43a-d95615d7b6cd" ;
+                "bf0caafc-2b20-4e07-ab85-87e14ff430ce" ;
         <http://www.example.com/Artist/name>
-                "Vessels" ;
+                "Spice Girls" ;
         <http://www.example.com/performed>
-                <http://www.example.com/Song/2f4bdd1a-b856-471d-b773-d716ea501f37> .
-
-<http://www.example.com/Artist/a039f1f1-e664-4aee-a917-426514734aa0>
-        <http://www.example.com/Artist/mbid>
-                "a039f1f1-e664-4aee-a917-426514734aa0" ;
-        <http://www.example.com/Artist/name>
-                "Ought" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/374dfaf3-caa6-4cae-b8d6-2302cfc69589> .
-
-<http://www.example.com/Artist/87c5dedd-371d-4a53-9f7f-80522fb7f3cb>
-        <http://www.example.com/Artist/mbid>
-                "87c5dedd-371d-4a53-9f7f-80522fb7f3cb" ;
-        <http://www.example.com/Artist/name>
-                "BjÃ¶rk" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/4f0b8755-4630-43a9-b5e3-b906e0fb2bb9> .
+                <http://www.example.com/Song/16b3b830-c6ae-4259-a0c1-95a88f39b92e> ;
+        <rdf:type>  "LastFMArtist" .
 
 <http://www.example.com/Artist/55111838-f001-494a-a1b5-9d818db85810>
         <http://www.example.com/Artist/mbid>
@@ -442,7 +197,152 @@
         <http://www.example.com/Artist/name>
                 "Courtney Barnett" ;
         <http://www.example.com/performed>
-                <http://www.example.com/Song/1fc6ee4c-f9f3-4be3-9ddb-d6b4cbfc7825> .
+                <http://www.example.com/Song/1fc6ee4c-f9f3-4be3-9ddb-d6b4cbfc7825> ;
+        <rdf:type>  "LastFMArtist" .
+
+<http://www.example.com/tag/sweet sadness>
+        <http://www.example.com/tag/name>
+                "sweet sadness" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/synthpop>
+        <http://www.example.com/tag/name>
+                "synthpop" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Song/437c059c-431d-4ddb-b112-041897188861>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/r kelly> , <www.example.com/Tag/90s> , <www.example.com/Tag/wjlb-FM> , <www.example.com/Tag/rnb> , <www.example.com/Tag/slow jam> .
+
+<http://www.example.com/Song/4f4370ab-205a-4f4a-8f5b-bbc9f3dd3c39>
+        <http://www.example.com/Song/artist>
+                "Solange" ;
+        <http://www.example.com/Song/mbid>
+                "4f4370ab-205a-4f4a-8f5b-bbc9f3dd3c39" ;
+        <http://www.example.com/Song/name>
+                "Losing You" ;
+        <rdf:type>  "LastFMSong" .
+
+<www.example.com/Artist/0589aa4e-2138-4c8a-aaab-ef4a93779583>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/experimental> , <www.example.com/Tag/indie> , <www.example.com/Tag/post-punk> , <www.example.com/Tag/synthpop> , <www.example.com/Tag/electronic> .
+
+<http://www.example.com/tag/british>
+        <http://www.example.com/tag/name>
+                "british" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Artist/142415a7-ebe7-4beb-99c6-ca03c332d259>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/rock> , <www.example.com/Tag/british> , <www.example.com/Tag/soul> , <www.example.com/Tag/80s> , <www.example.com/Tag/pop> .
+
+<http://www.example.com/tag/R Kelly Ignition>
+        <http://www.example.com/tag/name>
+                "R Kelly Ignition" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/slow jam>
+        <http://www.example.com/tag/name>
+                "slow jam" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Artist/527c65d1-9fdb-4482-8796-dde2980bd63a>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/urban> , <www.example.com/Tag/Hip-Hop> , <www.example.com/Tag/soul> , <www.example.com/Tag/pop> , <www.example.com/Tag/female vocalists> .
+
+<www.example.com/Song/374dfaf3-caa6-4cae-b8d6-2302cfc69589>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/2012> , <www.example.com/Tag/indie rock> , <www.example.com/Tag/art punk> , <www.example.com/Tag/post-punk> , <www.example.com/Tag/Canadian> .
+
+<http://www.example.com/tag/Lo-Fi>
+        <http://www.example.com/tag/name>
+                "Lo-Fi" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Song/0533243f-7f44-44a4-8571-8e8c4cc8d1a1>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/similar to: wilco> , <www.example.com/Tag/indie> , <www.example.com/Tag/acoustic> , <www.example.com/Tag/singer-songwriter> , <www.example.com/Tag/folk> .
+
+<http://www.example.com/Song/120affdb-e27d-46ab-a261-b5a7317aab91>
+        <http://www.example.com/Song/artist>
+                "Leftfield" ;
+        <http://www.example.com/Song/mbid>
+                "120affdb-e27d-46ab-a261-b5a7317aab91" ;
+        <http://www.example.com/Song/name>
+                "Afro-Left" ;
+        <rdf:type>  "LastFMSong" .
+
+<http://www.example.com/tag/deep house>
+        <http://www.example.com/tag/name>
+                "deep house" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/dance>
+        <http://www.example.com/tag/name>
+                "dance" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/dreaming>
+        <http://www.example.com/tag/name>
+                "dreaming" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/R. Kelly>
+        <http://www.example.com/tag/name>
+                "R. Kelly" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/americana>
+        <http://www.example.com/tag/name>
+                "americana" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/User/2930743>
+        <http://www.example.com/user/country>
+                "" ;
+        <http://www.example.com/user/gender>
+                "female" ;
+        <http://www.example.com/user/id>
+                "2930743" ;
+        <http://www.example.com/user/name>
+                "â˜…â™¥â˜… Badass Mod from the Future - Last Seen Tomorrow Afternoonâ˜…â™¥â˜…" ;
+        <rdf:type>  "LastFMUser" .
+
+<http://www.example.com/Artist/11ab49a5-fd58-4905-997d-57e70064e893>
+        <http://www.example.com/Artist/mbid>
+                "11ab49a5-fd58-4905-997d-57e70064e893" ;
+        <http://www.example.com/Artist/name>
+                "The Intelligence" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/186ad283-bb18-49ae-851c-2fd4a49e4053> ;
+        <rdf:type>  "LastFMArtist" .
+
+<www.example.com/Artist/6778f7b9-5da5-43dc-a890-72d169042723>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/hardcore> , <www.example.com/Tag/metal> , <www.example.com/Tag/Arniecore> , <www.example.com/Tag/thrash metal> , <www.example.com/Tag/metalcore> .
+
+<http://www.example.com/Song/0d337bb3-2c2e-424c-b172-640cb96d92a2>
+        <http://www.example.com/Song/artist>
+                "Boards of Canada" ;
+        <http://www.example.com/Song/mbid>
+                "0d337bb3-2c2e-424c-b172-640cb96d92a2" ;
+        <http://www.example.com/Song/name>
+                "Dayvan Cowboy" ;
+        <rdf:type>  "LastFMSong" .
+
+<http://www.example.com/tag/canada>
+        <http://www.example.com/tag/name>
+                "canada" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/indie folk>
+        <http://www.example.com/tag/name>
+                "indie folk" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/dream pop>
+        <http://www.example.com/tag/name>
+                "dream pop" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Artist/bf0caafc-2b20-4e07-ab85-87e14ff430ce>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/dance> , <www.example.com/Tag/british> , <www.example.com/Tag/female vocalists> , <www.example.com/Tag/90s> , <www.example.com/Tag/pop> .
+
+<www.example.com/Artist/55111838-f001-494a-a1b5-9d818db85810>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/australian> , <www.example.com/Tag/indie> , <www.example.com/Tag/indie folk> , <www.example.com/Tag/singer-songwriter> , <www.example.com/Tag/folk> .
 
 <http://www.example.com/Artist/419f6fb8-3ede-4feb-ab99-f25816ec6f78>
         <http://www.example.com/Artist/mbid>
@@ -450,15 +350,22 @@
         <http://www.example.com/Artist/name>
                 "Soft Cell" ;
         <http://www.example.com/performed>
-                <http://www.example.com/Song/00fe3587-6e41-4420-bfb8-457174297c3b> .
+                <http://www.example.com/Song/00fe3587-6e41-4420-bfb8-457174297c3b> ;
+        <rdf:type>  "LastFMArtist" .
 
-<http://www.example.com/Song/021dbd3e-c8f4-4c57-9a22-96ca36286ab1>
+<http://www.example.com/tag/indie rock>
+        <http://www.example.com/tag/name>
+                "indie rock" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Song/437c059c-431d-4ddb-b112-041897188861>
         <http://www.example.com/Song/artist>
-                "Alvvays" ;
+                "R. Kelly" ;
         <http://www.example.com/Song/mbid>
-                "021dbd3e-c8f4-4c57-9a22-96ca36286ab1" ;
+                "437c059c-431d-4ddb-b112-041897188861" ;
         <http://www.example.com/Song/name>
-                "Party Police" .
+                "It Seems Like You're Ready" ;
+        <rdf:type>  "LastFMSong" .
 
 <http://www.example.com/Artist/fc923e56-521e-40fe-bc89-730e6f3c78e0>
         <http://www.example.com/Artist/mbid>
@@ -466,7 +373,964 @@
         <http://www.example.com/Artist/name>
                 "Ghost Culture" ;
         <http://www.example.com/performed>
-                <http://www.example.com/Song/d9d6fcb4-94fa-499a-8c48-f2d69b6908ea> .
+                <http://www.example.com/Song/d9d6fcb4-94fa-499a-8c48-f2d69b6908ea> ;
+        <rdf:type>  "LastFMArtist" .
+
+<http://www.example.com/tag/2015 single>
+        <http://www.example.com/tag/name>
+                "2015 single" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Artist/cf7560ef-7714-477e-b4cd-59de0a2d11fb>
+        <http://www.example.com/Artist/mbid>
+                "cf7560ef-7714-477e-b4cd-59de0a2d11fb" ;
+        <http://www.example.com/Artist/name>
+                "Imelda May" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/c41cb7a6-d515-44a4-b21c-4967c7305d7b> ;
+        <rdf:type>  "LastFMArtist" .
+
+<www.example.com/Song/f8d80560-3aab-4b26-8c66-c66fae4bfa1e>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/rhythm and blues> , <www.example.com/Tag/rnb> , <www.example.com/Tag/80s> , <www.example.com/Tag/luther vandross> , <www.example.com/Tag/soul> .
+
+<http://www.example.com/Artist/4435aee5-9787-437f-a710-861fcf2a1c7d>
+        <http://www.example.com/Artist/mbid>
+                "4435aee5-9787-437f-a710-861fcf2a1c7d" ;
+        <http://www.example.com/Artist/name>
+                "ChÃ¢teau Flight" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/7ba2bed3-4ea6-4ea7-bba3-d8173f938d39> ;
+        <rdf:type>  "LastFMArtist" .
+
+<http://www.example.com/Song/cbaab7db-3897-45bd-90e7-828f79059ef8>
+        <http://www.example.com/Song/artist>
+                "Maggie Reilly" ;
+        <http://www.example.com/Song/mbid>
+                "cbaab7db-3897-45bd-90e7-828f79059ef8" ;
+        <http://www.example.com/Song/name>
+                "To France" ;
+        <rdf:type>  "LastFMSong" .
+
+<www.example.com/Song/e19ee975-5444-465a-b5b0-e8099ed16765>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/metalcore> , <www.example.com/Tag/christmas> , <www.example.com/Tag/cover> , <www.example.com/Tag/thrash metal> , <www.example.com/Tag/metal> .
+
+<http://www.example.com/tag/r kelly>
+        <http://www.example.com/tag/name>
+                "r kelly" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Song/0533243f-7f44-44a4-8571-8e8c4cc8d1a1>
+        <http://www.example.com/Song/artist>
+                "Sun Kil Moon" ;
+        <http://www.example.com/Song/mbid>
+                "0533243f-7f44-44a4-8571-8e8c4cc8d1a1" ;
+        <http://www.example.com/Song/name>
+                "I Can't Live Without My Mother's Love" ;
+        <rdf:type>  "LastFMSong" .
+
+<www.example.com/Song/78532513-0857-4907-9d65-42d17ead370b>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/alternative> , <www.example.com/Tag/alternative rock> , <www.example.com/Tag/Linkin Park> , <www.example.com/Tag/rock> , <www.example.com/Tag/Nu Metal> .
+
+<http://www.example.com/tag/hip hop>
+        <http://www.example.com/tag/name>
+                "hip hop" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/new wave>
+        <http://www.example.com/tag/name>
+                "new wave" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/instrumental>
+        <http://www.example.com/tag/name>
+                "instrumental" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Artist/11ab49a5-fd58-4905-997d-57e70064e893>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/noise> , <www.example.com/Tag/noise rock> , <www.example.com/Tag/experimental> , <www.example.com/Tag/Lo-Fi> , <www.example.com/Tag/post-punk> .
+
+<http://www.example.com/Song/c41cb7a6-d515-44a4-b21c-4967c7305d7b>
+        <http://www.example.com/Song/artist>
+                "Imelda May" ;
+        <http://www.example.com/Song/mbid>
+                "c41cb7a6-d515-44a4-b21c-4967c7305d7b" ;
+        <http://www.example.com/Song/name>
+                "Mayhem" ;
+        <rdf:type>  "LastFMSong" .
+
+<www.example.com/Artist/419f6fb8-3ede-4feb-ab99-f25816ec6f78>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/electronic> , <www.example.com/Tag/synth pop> , <www.example.com/Tag/synthpop> , <www.example.com/Tag/80s> , <www.example.com/Tag/new wave> .
+
+<http://www.example.com/tag/lounge>
+        <http://www.example.com/tag/name>
+                "lounge" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Artist/73a9da54-c6d0-4d40-a693-36ab462a9c86>
+        <http://www.example.com/Artist/mbid>
+                "73a9da54-c6d0-4d40-a693-36ab462a9c86" ;
+        <http://www.example.com/Artist/name>
+                "East India Youth" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/d21d2ef6-8968-4e25-b2ed-2cbdb8a53b04> ;
+        <rdf:type>  "LastFMArtist" .
+
+<http://www.example.com/tag/House>
+        <http://www.example.com/tag/name>
+                "House" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/User/36461520>
+        <www.example.com/dislike/>  <www.example.com/Song/78532513-0857-4907-9d65-42d17ead370b> ;
+        <www.example.com/like>      <www.example.com/Song/c41cb7a6-d515-44a4-b21c-4967c7305d7b> .
+
+<www.example.com/Artist/fc923e56-521e-40fe-bc89-730e6f3c78e0>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/dance> , <www.example.com/Tag/House> , <www.example.com/Tag/synthpop> , <www.example.com/Tag/electronic> , <www.example.com/Tag/deep house> .
+
+<http://www.example.com/Artist/8c538f11-c141-4588-8ecb-931083524186>
+        <http://www.example.com/Artist/mbid>
+                "8c538f11-c141-4588-8ecb-931083524186" ;
+        <http://www.example.com/Artist/name>
+                "Bloc Party" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/84a5e741-4b9e-445a-bed1-9bf8be126280> ;
+        <rdf:type>  "LastFMArtist" .
+
+<http://www.example.com/Artist/d1515727-4a93-4c0d-88cb-d7a9fce01879>
+        <http://www.example.com/Artist/mbid>
+                "d1515727-4a93-4c0d-88cb-d7a9fce01879" ;
+        <http://www.example.com/Artist/name>
+                "Jamie xx" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/d87da388-bbcb-4fff-aa3a-6088d4105f58> ;
+        <rdf:type>  "LastFMArtist" .
+
+<www.example.com/Artist/cf7560ef-7714-477e-b4cd-59de0a2d11fb>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/rock> , <www.example.com/Tag/neo-rockabilly> , <www.example.com/Tag/irish> , <www.example.com/Tag/female vocalists> , <www.example.com/Tag/rockabilly> .
+
+<http://www.example.com/tag/dubstep>
+        <http://www.example.com/tag/name>
+                "dubstep" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/cover>
+        <http://www.example.com/tag/name>
+                "cover" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Song/7ba2bed3-4ea6-4ea7-bba3-d8173f938d39>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/electronic> .
+
+<http://www.example.com/Song/f8d80560-3aab-4b26-8c66-c66fae4bfa1e>
+        <http://www.example.com/Song/artist>
+                "Luther Vandross" ;
+        <http://www.example.com/Song/mbid>
+                "f8d80560-3aab-4b26-8c66-c66fae4bfa1e" ;
+        <http://www.example.com/Song/name>
+                "Never Too Much" ;
+        <rdf:type>  "LastFMSong" .
+
+<www.example.com/Artist/4435aee5-9787-437f-a710-861fcf2a1c7d>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/electronica> , <www.example.com/Tag/House> , <www.example.com/Tag/french> , <www.example.com/Tag/downtempo> , <www.example.com/Tag/electronic> .
+
+<www.example.com/User/7737850>
+        <www.example.com/dislike/>  <www.example.com/Song/0702eecf-27d1-4372-9bd6-2b0fb794ceff> , <www.example.com/Song/437c059c-431d-4ddb-b112-041897188861> , <www.example.com/Song/186ad283-bb18-49ae-851c-2fd4a49e4053> , <www.example.com/Song/16b3b830-c6ae-4259-a0c1-95a88f39b92e> ;
+        <www.example.com/like>      <www.example.com/Song/4f4370ab-205a-4f4a-8f5b-bbc9f3dd3c39> , <www.example.com/Song/0533243f-7f44-44a4-8571-8e8c4cc8d1a1> , <www.example.com/Song/021dbd3e-c8f4-4c57-9a22-96ca36286ab1> , <www.example.com/Song/1fc6ee4c-f9f3-4be3-9ddb-d6b4cbfc7825> , <www.example.com/Song/db595ead-d60e-4ed7-8bf1-6955f90d3fca> .
+
+<http://www.example.com/tag/Alexisonfire>
+        <http://www.example.com/tag/name>
+                "Alexisonfire" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Song/4f0b8755-4630-43a9-b5e3-b906e0fb2bb9>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/bjork> , <www.example.com/Tag/icelandic> , <www.example.com/Tag/female vocalists> , <www.example.com/Tag/electronic> , <www.example.com/Tag/alternative> .
+
+<http://www.example.com/tag/simply red>
+        <http://www.example.com/tag/name>
+                "simply red" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Song/e19ee975-5444-465a-b5b0-e8099ed16765>
+        <http://www.example.com/Song/artist>
+                "Austrian Death Machine" ;
+        <http://www.example.com/Song/mbid>
+                "e19ee975-5444-465a-b5b0-e8099ed16765" ;
+        <http://www.example.com/Song/name>
+                "Jingle Bells" ;
+        <rdf:type>  "LastFMSong" .
+
+<http://www.example.com/tag/Arniecore>
+        <http://www.example.com/tag/name>
+                "Arniecore" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/User/21550768>
+        <www.example.com/dislike/>  <www.example.com/Song/f0ba7fa3-ecd0-4916-9749-770e51079504> , <www.example.com/Song/dc55fc91-20ab-4a32-83e8-944351c2102a> , <www.example.com/Song/22a61fdc-25fd-4739-8f96-ac981cf8578e> , <www.example.com/Song/19e62681-7a64-4545-a704-5a924f6888b5> ;
+        <www.example.com/like>      <www.example.com/Song/7ba2bed3-4ea6-4ea7-bba3-d8173f938d39> , <www.example.com/Song/d9d6fcb4-94fa-499a-8c48-f2d69b6908ea> , <www.example.com/Song/2f4bdd1a-b856-471d-b773-d716ea501f37> , <www.example.com/Song/374dfaf3-caa6-4cae-b8d6-2302cfc69589> , <www.example.com/Song/d21d2ef6-8968-4e25-b2ed-2cbdb8a53b04> .
+
+<www.example.com/Song/0702eecf-27d1-4372-9bd6-2b0fb794ceff>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/Hip-Hop> , <www.example.com/Tag/R. Kelly> , <www.example.com/Tag/rnb> , <www.example.com/Tag/hip hop> , <www.example.com/Tag/R Kelly Ignition> .
+
+<http://www.example.com/tag/rockabilly>
+        <http://www.example.com/tag/name>
+                "rockabilly" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/techno>
+        <http://www.example.com/tag/name>
+                "techno" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Song/78532513-0857-4907-9d65-42d17ead370b>
+        <http://www.example.com/Song/artist>
+                "Linkin Park" ;
+        <http://www.example.com/Song/mbid>
+                "78532513-0857-4907-9d65-42d17ead370b" ;
+        <http://www.example.com/Song/name>
+                "Papercut" ;
+        <rdf:type>  "LastFMSong" .
+
+<http://www.example.com/tag/Nu Metal>
+        <http://www.example.com/tag/name>
+                "Nu Metal" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/gem>
+        <http://www.example.com/tag/name>
+                "gem" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Artist/87c5dedd-371d-4a53-9f7f-80522fb7f3cb>
+        <http://www.example.com/Artist/mbid>
+                "87c5dedd-371d-4a53-9f7f-80522fb7f3cb" ;
+        <http://www.example.com/Artist/name>
+                "BjÃ¶rk" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/4f0b8755-4630-43a9-b5e3-b906e0fb2bb9> ;
+        <rdf:type>  "LastFMArtist" .
+
+<www.example.com/Song/af5062cd-ffba-4020-83ea-07183c663365>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/british> , <www.example.com/Tag/simply red> , <www.example.com/Tag/soul> , <www.example.com/Tag/80s> , <www.example.com/Tag/pop> .
+
+<http://www.example.com/tag/luther vandross>
+        <http://www.example.com/tag/name>
+                "luther vandross" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/future garage>
+        <http://www.example.com/tag/name>
+                "future garage" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Song/19e62681-7a64-4545-a704-5a924f6888b5>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/alternative rock> .
+
+<www.example.com/Song/d21d2ef6-8968-4e25-b2ed-2cbdb8a53b04>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/experimental> , <www.example.com/Tag/alternative> , <www.example.com/Tag/electronic> , <www.example.com/Tag/instrumental> , <www.example.com/Tag/indie> .
+
+<www.example.com/Artist/ef2c6449-d02b-415b-ad8c-c14c08266552>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/americana> , <www.example.com/Tag/indie rock> , <www.example.com/Tag/indie> , <www.example.com/Tag/singer-songwriter> , <www.example.com/Tag/folk> .
+
+<www.example.com/Artist/73a9da54-c6d0-4d40-a693-36ab462a9c86>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/Bournemouth> , <www.example.com/Tag/british> , <www.example.com/Tag/experimental> , <www.example.com/Tag/ambient> , <www.example.com/Tag/electronic> .
+
+<http://www.example.com/Song/d9d6fcb4-94fa-499a-8c48-f2d69b6908ea>
+        <http://www.example.com/Song/artist>
+                "Ghost Culture" ;
+        <http://www.example.com/Song/mbid>
+                "d9d6fcb4-94fa-499a-8c48-f2d69b6908ea" ;
+        <http://www.example.com/Song/name>
+                "Arms" ;
+        <rdf:type>  "LastFMSong" .
+
+<www.example.com/Song/4f4370ab-205a-4f4a-8f5b-bbc9f3dd3c39>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/pop> , <www.example.com/Tag/Love> , <www.example.com/Tag/r&b> , <www.example.com/Tag/summer> , <www.example.com/Tag/2012> .
+
+<www.example.com/Artist/8c538f11-c141-4588-8ecb-931083524186>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/rock> , <www.example.com/Tag/british> , <www.example.com/Tag/alternative> , <www.example.com/Tag/indie rock> , <www.example.com/Tag/indie> .
+
+<www.example.com/Artist/d1515727-4a93-4c0d-88cb-d7a9fce01879>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/wonky> , <www.example.com/Tag/UK Garage> , <www.example.com/Tag/future garage> , <www.example.com/Tag/electronic> , <www.example.com/Tag/dubstep> .
+
+<http://www.example.com/tag/similar to: wilco>
+        <http://www.example.com/tag/name>
+                "similar to: wilco" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Song/e78b11be-dcba-4d03-965c-dce434b52fb0>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/House> , <www.example.com/Tag/lounge> , <www.example.com/Tag/dub> , <www.example.com/Tag/minimal> , <www.example.com/Tag/electronic> .
+
+<www.example.com/Song/16b3b830-c6ae-4259-a0c1-95a88f39b92e>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/british> , <www.example.com/Tag/female vocalists> , <www.example.com/Tag/Spice Girls> , <www.example.com/Tag/90s> , <www.example.com/Tag/pop> .
+
+<http://www.example.com/Song/7ba2bed3-4ea6-4ea7-bba3-d8173f938d39>
+        <http://www.example.com/Song/artist>
+                "ChÃ¢teau Flight" ;
+        <http://www.example.com/Song/mbid>
+                "7ba2bed3-4ea6-4ea7-bba3-d8173f938d39" ;
+        <http://www.example.com/Song/name>
+                "Superflight (Maurice Fulton remix)" ;
+        <rdf:type>  "LastFMSong" .
+
+<http://www.example.com/Artist/a039f1f1-e664-4aee-a917-426514734aa0>
+        <http://www.example.com/Artist/mbid>
+                "a039f1f1-e664-4aee-a917-426514734aa0" ;
+        <http://www.example.com/Artist/name>
+                "Ought" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/374dfaf3-caa6-4cae-b8d6-2302cfc69589> ;
+        <rdf:type>  "LastFMArtist" .
+
+<www.example.com/Song/22a61fdc-25fd-4739-8f96-ac981cf8578e>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/trip-hop> , <www.example.com/Tag/downtempo> , <www.example.com/Tag/pop> , <www.example.com/Tag/electronica> , <www.example.com/Tag/electronic> .
+
+<www.example.com/Song/00fe3587-6e41-4420-bfb8-457174297c3b>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/pop> , <www.example.com/Tag/synth pop> , <www.example.com/Tag/electronic> , <www.example.com/Tag/new wave> , <www.example.com/Tag/80s> .
+
+<http://www.example.com/Artist/859216c4-5d01-479b-b6c3-e20cc591a86a>
+        <http://www.example.com/Artist/mbid>
+                "859216c4-5d01-479b-b6c3-e20cc591a86a" ;
+        <http://www.example.com/Artist/name>
+                "Daphni" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/f0ba7fa3-ecd0-4916-9749-770e51079504> , <http://www.example.com/Song/dc55fc91-20ab-4a32-83e8-944351c2102a> ;
+        <rdf:type>  "LastFMArtist" .
+
+<http://www.example.com/Artist/816d9b5d-eaf9-4a97-b5f7-6e82cd01aafe>
+        <http://www.example.com/Artist/mbid>
+                "816d9b5d-eaf9-4a97-b5f7-6e82cd01aafe" ;
+        <http://www.example.com/Artist/name>
+                "Luther Vandross" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/f8d80560-3aab-4b26-8c66-c66fae4bfa1e> ;
+        <rdf:type>  "LastFMArtist" .
+
+<http://www.example.com/Song/dc55fc91-20ab-4a32-83e8-944351c2102a>
+        <http://www.example.com/Song/artist>
+                "Daphni" ;
+        <http://www.example.com/Song/mbid>
+                "dc55fc91-20ab-4a32-83e8-944351c2102a" ;
+        <http://www.example.com/Song/name>
+                "Rush" ;
+        <rdf:type>  "LastFMSong" .
+
+<www.example.com/Song/120affdb-e27d-46ab-a261-b5a7317aab91>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/Leftfield> , <www.example.com/Tag/techno> , <www.example.com/Tag/electronica> , <www.example.com/Tag/dance> , <www.example.com/Tag/electronic> .
+
+<http://www.example.com/Song/4f0b8755-4630-43a9-b5e3-b906e0fb2bb9>
+        <http://www.example.com/Song/artist>
+                "BjÃ¶rk" ;
+        <http://www.example.com/Song/mbid>
+                "4f0b8755-4630-43a9-b5e3-b906e0fb2bb9" ;
+        <http://www.example.com/Song/name>
+                "Bachelorette" ;
+        <rdf:type>  "LastFMSong" .
+
+<http://www.example.com/tag/Spice Girls>
+        <http://www.example.com/tag/name>
+                "Spice Girls" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/Canadian>
+        <http://www.example.com/tag/name>
+                "Canadian" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/metalcore>
+        <http://www.example.com/tag/name>
+                "metalcore" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Song/0702eecf-27d1-4372-9bd6-2b0fb794ceff>
+        <http://www.example.com/Song/artist>
+                "R. Kelly" ;
+        <http://www.example.com/Song/mbid>
+                "0702eecf-27d1-4372-9bd6-2b0fb794ceff" ;
+        <http://www.example.com/Song/name>
+                "Ignition Remix" ;
+        <rdf:type>  "LastFMSong" .
+
+<http://www.example.com/tag/irish>
+        <http://www.example.com/tag/name>
+                "irish" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/math rock>
+        <http://www.example.com/tag/name>
+                "math rock" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Artist/87c5dedd-371d-4a53-9f7f-80522fb7f3cb>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/icelandic> , <www.example.com/Tag/female vocalists> , <www.example.com/Tag/experimental> , <www.example.com/Tag/alternative> , <www.example.com/Tag/electronic> .
+
+<http://www.example.com/Song/f0ba7fa3-ecd0-4916-9749-770e51079504>
+        <http://www.example.com/Song/artist>
+                "Daphni" ;
+        <http://www.example.com/Song/mbid>
+                "f0ba7fa3-ecd0-4916-9749-770e51079504" ;
+        <http://www.example.com/Song/name>
+                "I Know Your Secret" ;
+        <rdf:type>  "LastFMSong" .
+
+<http://www.example.com/Artist/c2d25856-a09a-4d15-b404-77dd19c19e63>
+        <http://www.example.com/Artist/mbid>
+                "c2d25856-a09a-4d15-b404-77dd19c19e63" ;
+        <http://www.example.com/Artist/name>
+                "R. Kelly" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/0702eecf-27d1-4372-9bd6-2b0fb794ceff> , <http://www.example.com/Song/437c059c-431d-4ddb-b112-041897188861> ;
+        <rdf:type>  "LastFMArtist" .
+
+<http://www.example.com/tag/rhythm and blues>
+        <http://www.example.com/tag/name>
+                "rhythm and blues" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/urban>
+        <http://www.example.com/tag/name>
+                "urban" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/experimental>
+        <http://www.example.com/tag/name>
+                "experimental" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Artist/99450990-b24e-4132-bb68-235f8c3e2564>
+        <http://www.example.com/Artist/mbid>
+                "99450990-b24e-4132-bb68-235f8c3e2564" ;
+        <http://www.example.com/Artist/name>
+                "Alvvays" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/021dbd3e-c8f4-4c57-9a22-96ca36286ab1> ;
+        <rdf:type>  "LastFMArtist" .
+
+<www.example.com/Song/0d337bb3-2c2e-424c-b172-640cb96d92a2>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/idm> , <www.example.com/Tag/electronica> , <www.example.com/Tag/chillout> , <www.example.com/Tag/electronic> , <www.example.com/Tag/ambient> .
+
+<http://www.example.com/tag/electronica>
+        <http://www.example.com/tag/name>
+                "electronica" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/best songs of 2012>
+        <http://www.example.com/tag/name>
+                "best songs of 2012" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/electronic>
+        <http://www.example.com/tag/name>
+                "electronic" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/soul>
+        <http://www.example.com/tag/name>
+                "soul" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Song/d21d2ef6-8968-4e25-b2ed-2cbdb8a53b04>
+        <http://www.example.com/Song/artist>
+                "East India Youth" ;
+        <http://www.example.com/Song/mbid>
+                "d21d2ef6-8968-4e25-b2ed-2cbdb8a53b04" ;
+        <http://www.example.com/Song/name>
+                "Hinterland" ;
+        <rdf:type>  "LastFMSong" .
+
+<http://www.example.com/tag/rap>
+        <http://www.example.com/tag/name>
+                "rap" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/Hip-Hop>
+        <http://www.example.com/tag/name>
+                "Hip-Hop" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Song/d87da388-bbcb-4fff-aa3a-6088d4105f58>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/uk bass> , <www.example.com/Tag/bass music> , <www.example.com/Tag/4 Stars> , <www.example.com/Tag/british> , <www.example.com/Tag/electronic> .
+
+<http://www.example.com/tag/alternative rock>
+        <http://www.example.com/tag/name>
+                "alternative rock" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Song/e78b11be-dcba-4d03-965c-dce434b52fb0>
+        <http://www.example.com/Song/artist>
+                "Dub Taylor" ;
+        <http://www.example.com/Song/mbid>
+                "e78b11be-dcba-4d03-965c-dce434b52fb0" ;
+        <http://www.example.com/Song/name>
+                "Clash!" ;
+        <rdf:type>  "LastFMSong" .
+
+<www.example.com/Song/db595ead-d60e-4ed7-8bf1-6955f90d3fca>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/electronic> , <www.example.com/Tag/alternative> , <www.example.com/Tag/best songs of 2012> , <www.example.com/Tag/2012> , <www.example.com/Tag/indie> .
+
+<http://www.example.com/tag/post-punk>
+        <http://www.example.com/tag/name>
+                "post-punk" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/indie>
+        <http://www.example.com/tag/name>
+                "indie" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/emo>
+        <http://www.example.com/tag/name>
+                "emo" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Artist/a039f1f1-e664-4aee-a917-426514734aa0>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/indie> , <www.example.com/Tag/canada> , <www.example.com/Tag/art punk> , <www.example.com/Tag/indie rock> , <www.example.com/Tag/post-punk> .
+
+<http://www.example.com/Song/16b3b830-c6ae-4259-a0c1-95a88f39b92e>
+        <http://www.example.com/Song/artist>
+                "Spice Girls" ;
+        <http://www.example.com/Song/mbid>
+                "16b3b830-c6ae-4259-a0c1-95a88f39b92e" ;
+        <http://www.example.com/Song/name>
+                "Mama" ;
+        <rdf:type>  "LastFMSong" .
+
+<www.example.com/Song/cbaab7db-3897-45bd-90e7-828f79059ef8>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/Mary Stuart> , <www.example.com/Tag/Maggie Reilly> , <www.example.com/Tag/female vocalists> , <www.example.com/Tag/dreaming> , <www.example.com/Tag/pop> .
+
+<www.example.com/Artist/859216c4-5d01-479b-b6c3-e20cc591a86a>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/afrobeat> , <www.example.com/Tag/electronic> , <www.example.com/Tag/experimental> , <www.example.com/Tag/techno> , <www.example.com/Tag/House> .
+
+<http://www.example.com/Song/22a61fdc-25fd-4739-8f96-ac981cf8578e>
+        <http://www.example.com/Song/artist>
+                "Matthew Dear" ;
+        <http://www.example.com/Song/mbid>
+                "22a61fdc-25fd-4739-8f96-ac981cf8578e" ;
+        <http://www.example.com/Song/name>
+                "Midnight Lovers" ;
+        <rdf:type>  "LastFMSong" .
+
+<http://www.example.com/Artist/69158f97-4c07-4c4e-baf8-4e4ab1ed666e>
+        <http://www.example.com/Artist/mbid>
+                "69158f97-4c07-4c4e-baf8-4e4ab1ed666e" ;
+        <http://www.example.com/Artist/name>
+                "Boards of Canada" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/0d337bb3-2c2e-424c-b172-640cb96d92a2> ;
+        <rdf:type>  "LastFMArtist" .
+
+<www.example.com/Artist/816d9b5d-eaf9-4a97-b5f7-6e82cd01aafe>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/pop> , <www.example.com/Tag/rhythm and blues> , <www.example.com/Tag/male vocalists> , <www.example.com/Tag/rnb> , <www.example.com/Tag/soul> .
+
+<http://www.example.com/Song/00fe3587-6e41-4420-bfb8-457174297c3b>
+        <http://www.example.com/Song/artist>
+                "Soft Cell" ;
+        <http://www.example.com/Song/mbid>
+                "00fe3587-6e41-4420-bfb8-457174297c3b" ;
+        <http://www.example.com/Song/name>
+                "Say Hello, Wave Goodbye" ;
+        <rdf:type>  "LastFMSong" .
+
+<http://www.example.com/tag/r&b>
+        <http://www.example.com/tag/name>
+                "r&b" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/acoustic>
+        <http://www.example.com/tag/name>
+                "acoustic" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Song/2f4bdd1a-b856-471d-b773-d716ea501f37>
+        <http://www.example.com/Song/artist>
+                "Vessels" ;
+        <http://www.example.com/Song/mbid>
+                "2f4bdd1a-b856-471d-b773-d716ea501f37" ;
+        <http://www.example.com/Song/name>
+                "On Your Own Ten Toes" ;
+        <rdf:type>  "LastFMSong" .
+
+<http://www.example.com/tag/art punk>
+        <http://www.example.com/tag/name>
+                "art punk" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/female vocalists>
+        <http://www.example.com/tag/name>
+                "female vocalists" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/bjork>
+        <http://www.example.com/tag/name>
+                "bjork" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/User/36461520>
+        <http://www.example.com/user/age>
+                "31" ;
+        <http://www.example.com/user/country>
+                "UK" ;
+        <http://www.example.com/user/gender>
+                "female" ;
+        <http://www.example.com/user/id>
+                "36461520" ;
+        <http://www.example.com/user/name>
+                "Fran" ;
+        <rdf:type>  "LastFMUser" .
+
+<www.example.com/Artist/c2d25856-a09a-4d15-b404-77dd19c19e63>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/hip hop> , <www.example.com/Tag/rap> , <www.example.com/Tag/Hip-Hop> , <www.example.com/Tag/soul> , <www.example.com/Tag/rnb> .
+
+<www.example.com/Song/021dbd3e-c8f4-4c57-9a22-96ca36286ab1>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/gem> , <www.example.com/Tag/summer tune> , <www.example.com/Tag/Heartbreaking> , <www.example.com/Tag/pop> , <www.example.com/Tag/sweet sadness> .
+
+<http://www.example.com/tag/idm>
+        <http://www.example.com/tag/name>
+                "idm" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/User/6425992>
+        <www.example.com/dislike/>  <www.example.com/Song/e78b11be-dcba-4d03-965c-dce434b52fb0> , <www.example.com/Song/00fe3587-6e41-4420-bfb8-457174297c3b> ;
+        <www.example.com/like>      <www.example.com/Song/0d337bb3-2c2e-424c-b172-640cb96d92a2> , <www.example.com/Song/19ced806-f81e-43bb-bc7b-725af41f2b5f> , <www.example.com/Song/4f0b8755-4630-43a9-b5e3-b906e0fb2bb9> , <www.example.com/Song/120affdb-e27d-46ab-a261-b5a7317aab91> , <www.example.com/Song/f8d80560-3aab-4b26-8c66-c66fae4bfa1e> .
+
+<www.example.com/Artist/99450990-b24e-4132-bb68-235f8c3e2564>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/pop> , <www.example.com/Tag/indie> , <www.example.com/Tag/Lo-Fi> , <www.example.com/Tag/indie pop> , <www.example.com/Tag/dream pop> .
+
+<http://www.example.com/tag/thrash metal>
+        <http://www.example.com/tag/name>
+                "thrash metal" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Song/c41cb7a6-d515-44a4-b21c-4967c7305d7b>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/-o612fh> , <www.example.com/Tag/16 rem 120518> , <www.example.com/Tag/10s> , <www.example.com/Tag/female vocalists> , <www.example.com/Tag/rockabilly> .
+
+<http://www.example.com/tag/neo-rockabilly>
+        <http://www.example.com/tag/name>
+                "neo-rockabilly" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/bass music>
+        <http://www.example.com/tag/name>
+                "bass music" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/minimal techno>
+        <http://www.example.com/tag/name>
+                "minimal techno" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Artist/410e7fd3-b865-4fa0-bb18-1b7fd53382ca>
+        <http://www.example.com/Artist/mbid>
+                "410e7fd3-b865-4fa0-bb18-1b7fd53382ca" ;
+        <http://www.example.com/Artist/name>
+                "Solange" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/4f4370ab-205a-4f4a-8f5b-bbc9f3dd3c39> ;
+        <rdf:type>  "LastFMArtist" .
+
+<http://www.example.com/tag/Heartbreaking>
+        <http://www.example.com/tag/name>
+                "Heartbreaking" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Song/d87da388-bbcb-4fff-aa3a-6088d4105f58>
+        <http://www.example.com/Song/artist>
+                "Jamie xx" ;
+        <http://www.example.com/Song/mbid>
+                "d87da388-bbcb-4fff-aa3a-6088d4105f58" ;
+        <http://www.example.com/Song/name>
+                "Gosh" ;
+        <rdf:type>  "LastFMSong" .
+
+<http://www.example.com/User/21550768>
+        <http://www.example.com/user/age>
+                "36" ;
+        <http://www.example.com/user/country>
+                "UK" ;
+        <http://www.example.com/user/gender>
+                "male" ;
+        <http://www.example.com/user/id>
+                "21550768" ;
+        <http://www.example.com/user/name>
+                "Matt Knapman" ;
+        <rdf:type>  "LastFMUser" .
+
+<http://www.example.com/Artist/0d20c42d-133c-429d-8f76-3c2458aee3e8>
+        <http://www.example.com/Artist/mbid>
+                "0d20c42d-133c-429d-8f76-3c2458aee3e8" ;
+        <http://www.example.com/Artist/name>
+                "Balance and Composure" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/19e62681-7a64-4545-a704-5a924f6888b5> ;
+        <rdf:type>  "LastFMArtist" .
+
+<http://www.example.com/Song/db595ead-d60e-4ed7-8bf1-6955f90d3fca>
+        <http://www.example.com/Song/artist>
+                "Chromatics" ;
+        <http://www.example.com/Song/mbid>
+                "db595ead-d60e-4ed7-8bf1-6955f90d3fca" ;
+        <http://www.example.com/Song/name>
+                "Kill for Love" ;
+        <rdf:type>  "LastFMSong" .
+
+<http://www.example.com/tag/noise>
+        <http://www.example.com/tag/name>
+                "noise" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/Leftfield>
+        <http://www.example.com/tag/name>
+                "Leftfield" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/Mary Stuart>
+        <http://www.example.com/tag/name>
+                "Mary Stuart" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/-o612fh>
+        <http://www.example.com/tag/name>
+                "-o612fh" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Artist/69158f97-4c07-4c4e-baf8-4e4ab1ed666e>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/electronica> , <www.example.com/Tag/chillout> , <www.example.com/Tag/idm> , <www.example.com/Tag/electronic> , <www.example.com/Tag/ambient> .
+
+<http://www.example.com/tag/Bournemouth>
+        <http://www.example.com/tag/name>
+                "Bournemouth" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Artist/0e509d26-547e-4019-87ea-9af325c77134>
+        <http://www.example.com/Artist/mbid>
+                "0e509d26-547e-4019-87ea-9af325c77134" ;
+        <http://www.example.com/Artist/name>
+                "Dub Taylor" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/e78b11be-dcba-4d03-965c-dce434b52fb0> ;
+        <rdf:type>  "LastFMArtist" .
+
+<http://www.example.com/tag/rnb>
+        <http://www.example.com/tag/name>
+                "rnb" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/summer tune>
+        <http://www.example.com/tag/name>
+                "summer tune" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Song/84a5e741-4b9e-445a-bed1-9bf8be126280>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/rock> , <www.example.com/Tag/britpop> , <www.example.com/Tag/alternative> , <www.example.com/Tag/indie rock> , <www.example.com/Tag/indie> .
+
+<http://www.example.com/tag/16 rem 120518>
+        <http://www.example.com/tag/name>
+                "16 rem 120518" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Artist/bc1c8f3f-6f36-4086-a470-87ed813dd429>
+        <http://www.example.com/Artist/mbid>
+                "bc1c8f3f-6f36-4086-a470-87ed813dd429" ;
+        <http://www.example.com/Artist/name>
+                "Alexisonfire" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/60ef3385-6b0e-4a90-9b9a-73ee0044ebd9> ;
+        <rdf:type>  "LastFMArtist" .
+
+<http://www.example.com/tag/post-hardcore>
+        <http://www.example.com/tag/name>
+                "post-hardcore" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Song/021dbd3e-c8f4-4c57-9a22-96ca36286ab1>
+        <http://www.example.com/Song/artist>
+                "Alvvays" ;
+        <http://www.example.com/Song/mbid>
+                "021dbd3e-c8f4-4c57-9a22-96ca36286ab1" ;
+        <http://www.example.com/Song/name>
+                "Party Police" ;
+        <rdf:type>  "LastFMSong" .
+
+<http://www.example.com/tag/synth pop>
+        <http://www.example.com/tag/name>
+                "synth pop" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Artist/f59c5520-5f46-4d2c-b2c4-822eabf53419>
+        <http://www.example.com/Artist/mbid>
+                "f59c5520-5f46-4d2c-b2c4-822eabf53419" ;
+        <http://www.example.com/Artist/name>
+                "Linkin Park" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/78532513-0857-4907-9d65-42d17ead370b> ;
+        <rdf:type>  "LastFMArtist" .
+
+<www.example.com/Artist/410e7fd3-b865-4fa0-bb18-1b7fd53382ca>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/Hip-Hop> , <www.example.com/Tag/female vocalists> , <www.example.com/Tag/pop> , <www.example.com/Tag/soul> , <www.example.com/Tag/rnb> .
+
+<http://www.example.com/tag/10s>
+        <http://www.example.com/tag/name>
+                "10s" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/Pop-Rock>
+        <http://www.example.com/tag/name>
+                "Pop-Rock" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/christmas>
+        <http://www.example.com/tag/name>
+                "christmas" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Song/d9d6fcb4-94fa-499a-8c48-f2d69b6908ea>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/corporal elements> .
+
+<http://www.example.com/tag/french>
+        <http://www.example.com/tag/name>
+                "french" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Artist/0d20c42d-133c-429d-8f76-3c2458aee3e8>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/alternative> , <www.example.com/Tag/indie rock> , <www.example.com/Tag/indie> , <www.example.com/Tag/emo> , <www.example.com/Tag/post-hardcore> .
+
+<www.example.com/Song/19ced806-f81e-43bb-bc7b-725af41f2b5f>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/female vocalists> , <www.example.com/Tag/dance> , <www.example.com/Tag/Hip-Hop> , <www.example.com/Tag/pop> , <www.example.com/Tag/80s> .
+
+<http://www.example.com/tag/corporal elements>
+        <http://www.example.com/tag/name>
+                "corporal elements" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/pop>
+        <http://www.example.com/tag/name>
+                "pop" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/Song/1fc6ee4c-f9f3-4be3-9ddb-d6b4cbfc7825>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/rel-mnth:2015:February> , <www.example.com/Tag/australian> , <www.example.com/Tag/Garage Rock> , <www.example.com/Tag/2015 single> , <www.example.com/Tag/Grunge> .
+
+<http://www.example.com/Song/374dfaf3-caa6-4cae-b8d6-2302cfc69589>
+        <http://www.example.com/Song/artist>
+                "Ought" ;
+        <http://www.example.com/Song/mbid>
+                "374dfaf3-caa6-4cae-b8d6-2302cfc69589" ;
+        <http://www.example.com/Song/name>
+                "Pleasant Heart" ;
+        <rdf:type>  "LastFMSong" .
+
+<www.example.com/Artist/0e509d26-547e-4019-87ea-9af325c77134>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/House> , <www.example.com/Tag/techno> , <www.example.com/Tag/electronic> , <www.example.com/Tag/deep house> , <www.example.com/Tag/minimal> .
+
+<http://www.example.com/tag/noise rock>
+        <http://www.example.com/tag/name>
+                "noise rock" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Artist/3d191c12-be64-4f90-94d8-ac324b2b3544>
+        <http://www.example.com/Artist/mbid>
+                "3d191c12-be64-4f90-94d8-ac324b2b3544" ;
+        <http://www.example.com/Artist/name>
+                "Matthew Dear" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/22a61fdc-25fd-4739-8f96-ac981cf8578e> ;
+        <rdf:type>  "LastFMArtist" .
+
+<http://www.example.com/tag/Linkin Park>
+        <http://www.example.com/tag/name>
+                "Linkin Park" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Song/84a5e741-4b9e-445a-bed1-9bf8be126280>
+        <http://www.example.com/Song/artist>
+                "Bloc Party" ;
+        <http://www.example.com/Song/mbid>
+                "84a5e741-4b9e-445a-bed1-9bf8be126280" ;
+        <http://www.example.com/Song/name>
+                "Two More Years" ;
+        <rdf:type>  "LastFMSong" .
+
+<http://www.example.com/Artist/369fbad4-6fa4-4dae-9842-a69826cd359d>
+        <http://www.example.com/Artist/mbid>
+                "369fbad4-6fa4-4dae-9842-a69826cd359d" ;
+        <http://www.example.com/Artist/name>
+                "Leftfield" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/120affdb-e27d-46ab-a261-b5a7317aab91> ;
+        <rdf:type>  "LastFMArtist" .
+
+<http://www.example.com/Song/186ad283-bb18-49ae-851c-2fd4a49e4053>
+        <http://www.example.com/Song/artist>
+                "The Intelligence" ;
+        <http://www.example.com/Song/mbid>
+                "186ad283-bb18-49ae-851c-2fd4a49e4053" ;
+        <http://www.example.com/Song/name>
+                "Sunny Backyard" ;
+        <rdf:type>  "LastFMSong" .
+
+<www.example.com/Artist/bc1c8f3f-6f36-4086-a470-87ed813dd429>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/emo> , <www.example.com/Tag/emocore> , <www.example.com/Tag/hardcore> , <www.example.com/Tag/screamo> , <www.example.com/Tag/post-hardcore> .
+
+<http://www.example.com/tag/australian>
+        <http://www.example.com/tag/name>
+                "australian" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/Love>
+        <http://www.example.com/tag/name>
+                "Love" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/4 Stars>
+        <http://www.example.com/tag/name>
+                "4 Stars" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/UK Garage>
+        <http://www.example.com/tag/name>
+                "UK Garage" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Artist/ef2c6449-d02b-415b-ad8c-c14c08266552>
+        <http://www.example.com/Artist/mbid>
+                "ef2c6449-d02b-415b-ad8c-c14c08266552" ;
+        <http://www.example.com/Artist/name>
+                "Sun Kil Moon" ;
+        <http://www.example.com/performed>
+                <http://www.example.com/Song/0533243f-7f44-44a4-8571-8e8c4cc8d1a1> ;
+        <rdf:type>  "LastFMArtist" .
+
+<www.example.com/Artist/f59c5520-5f46-4d2c-b2c4-822eabf53419>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/metal> , <www.example.com/Tag/alternative> , <www.example.com/Tag/alternative rock> , <www.example.com/Tag/Nu Metal> , <www.example.com/Tag/rock> .
+
+<http://www.example.com/tag/post-rock>
+        <http://www.example.com/tag/name>
+                "post-rock" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/screamo>
+        <http://www.example.com/tag/name>
+                "screamo" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/emocore>
+        <http://www.example.com/tag/name>
+                "emocore" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/chillout>
+        <http://www.example.com/tag/name>
+                "chillout" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/minimal>
+        <http://www.example.com/tag/name>
+                "minimal" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/male vocalists>
+        <http://www.example.com/tag/name>
+                "male vocalists" ;
+        <rdf:type>  "LastFMTag" .
 
 <http://www.example.com/User/6425992>
         <http://www.example.com/user/age>
@@ -478,92 +1342,82 @@
         <http://www.example.com/user/id>
                 "6425992" ;
         <http://www.example.com/user/name>
-                "Mass Dosage" .
+                "Mass Dosage" ;
+        <rdf:type>  "LastFMUser" .
 
-<http://www.example.com/Song/f8d80560-3aab-4b26-8c66-c66fae4bfa1e>
+<http://www.example.com/Song/19ced806-f81e-43bb-bc7b-725af41f2b5f>
         <http://www.example.com/Song/artist>
-                "Luther Vandross" ;
+                "Neneh Cherry" ;
         <http://www.example.com/Song/mbid>
-                "f8d80560-3aab-4b26-8c66-c66fae4bfa1e" ;
+                "19ced806-f81e-43bb-bc7b-725af41f2b5f" ;
         <http://www.example.com/Song/name>
-                "Never Too Much" .
+                "Buffalo Stance" ;
+        <rdf:type>  "LastFMSong" .
 
-<http://www.example.com/Song/120affdb-e27d-46ab-a261-b5a7317aab91>
+<http://www.example.com/tag/wonky>
+        <http://www.example.com/tag/name>
+                "wonky" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/80s>
+        <http://www.example.com/tag/name>
+                "80s" ;
+        <rdf:type>  "LastFMTag" .
+
+<www.example.com/User/2930743>
+        <www.example.com/dislike/>  <www.example.com/Song/60ef3385-6b0e-4a90-9b9a-73ee0044ebd9> , <www.example.com/Song/84a5e741-4b9e-445a-bed1-9bf8be126280> , <www.example.com/Song/e19ee975-5444-465a-b5b0-e8099ed16765> , <www.example.com/Song/cbaab7db-3897-45bd-90e7-828f79059ef8> ;
+        <www.example.com/like>      <www.example.com/Song/af5062cd-ffba-4020-83ea-07183c663365> , <www.example.com/Song/d87da388-bbcb-4fff-aa3a-6088d4105f58> .
+
+<http://www.example.com/tag/metal>
+        <http://www.example.com/tag/name>
+                "metal" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/Song/1fc6ee4c-f9f3-4be3-9ddb-d6b4cbfc7825>
         <http://www.example.com/Song/artist>
-                "Leftfield" ;
+                "Courtney Barnett" ;
         <http://www.example.com/Song/mbid>
-                "120affdb-e27d-46ab-a261-b5a7317aab91" ;
+                "1fc6ee4c-f9f3-4be3-9ddb-d6b4cbfc7825" ;
         <http://www.example.com/Song/name>
-                "Afro-Left" .
+                "Pedestrian at Best" ;
+        <rdf:type>  "LastFMSong" .
 
-<http://www.example.com/Song/4f4370ab-205a-4f4a-8f5b-bbc9f3dd3c39>
-        <http://www.example.com/Song/artist>
-                "Solange" ;
-        <http://www.example.com/Song/mbid>
-                "4f4370ab-205a-4f4a-8f5b-bbc9f3dd3c39" ;
-        <http://www.example.com/Song/name>
-                "Losing You" .
+<www.example.com/Artist/3d191c12-be64-4f90-94d8-ac324b2b3544>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/electronica> , <www.example.com/Tag/minimal techno> , <www.example.com/Tag/techno> , <www.example.com/Tag/minimal> , <www.example.com/Tag/electronic> .
 
-<http://www.example.com/Song/60ef3385-6b0e-4a90-9b9a-73ee0044ebd9>
-        <http://www.example.com/Song/artist>
-                "Alexisonfire" ;
-        <http://www.example.com/Song/mbid>
-                "60ef3385-6b0e-4a90-9b9a-73ee0044ebd9" ;
-        <http://www.example.com/Song/name>
-                ".44 Caliber Love Letter" .
-
-<http://www.example.com/Song/2f4bdd1a-b856-471d-b773-d716ea501f37>
-        <http://www.example.com/Song/artist>
+<http://www.example.com/Artist/46e2ea0e-b023-4ba6-b43a-d95615d7b6cd>
+        <http://www.example.com/Artist/mbid>
+                "46e2ea0e-b023-4ba6-b43a-d95615d7b6cd" ;
+        <http://www.example.com/Artist/name>
                 "Vessels" ;
-        <http://www.example.com/Song/mbid>
-                "2f4bdd1a-b856-471d-b773-d716ea501f37" ;
-        <http://www.example.com/Song/name>
-                "On Your Own Ten Toes" .
-
-<http://www.example.com/Song/84a5e741-4b9e-445a-bed1-9bf8be126280>
-        <http://www.example.com/Song/artist>
-                "Bloc Party" ;
-        <http://www.example.com/Song/mbid>
-                "84a5e741-4b9e-445a-bed1-9bf8be126280" ;
-        <http://www.example.com/Song/name>
-                "Two More Years" .
-
-<http://www.example.com/Artist/816d9b5d-eaf9-4a97-b5f7-6e82cd01aafe>
-        <http://www.example.com/Artist/mbid>
-                "816d9b5d-eaf9-4a97-b5f7-6e82cd01aafe" ;
-        <http://www.example.com/Artist/name>
-                "Luther Vandross" ;
         <http://www.example.com/performed>
-                <http://www.example.com/Song/f8d80560-3aab-4b26-8c66-c66fae4bfa1e> .
+                <http://www.example.com/Song/2f4bdd1a-b856-471d-b773-d716ea501f37> ;
+        <rdf:type>  "LastFMArtist" .
 
-<http://www.example.com/Artist/c2d25856-a09a-4d15-b404-77dd19c19e63>
-        <http://www.example.com/Artist/mbid>
-                "c2d25856-a09a-4d15-b404-77dd19c19e63" ;
-        <http://www.example.com/Artist/name>
-                "R. Kelly" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/0702eecf-27d1-4372-9bd6-2b0fb794ceff> , <http://www.example.com/Song/437c059c-431d-4ddb-b112-041897188861> .
+<http://www.example.com/tag/90s>
+        <http://www.example.com/tag/name>
+                "90s" ;
+        <rdf:type>  "LastFMTag" .
 
-<http://www.example.com/Artist/99450990-b24e-4132-bb68-235f8c3e2564>
-        <http://www.example.com/Artist/mbid>
-                "99450990-b24e-4132-bb68-235f8c3e2564" ;
-        <http://www.example.com/Artist/name>
-                "Alvvays" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/021dbd3e-c8f4-4c57-9a22-96ca36286ab1> .
+<www.example.com/Artist/369fbad4-6fa4-4dae-9842-a69826cd359d>
+        <www.example.com/isDescribed/>  <www.example.com/Tag/chillout> , <www.example.com/Tag/dance> , <www.example.com/Tag/techno> , <www.example.com/Tag/electronica> , <www.example.com/Tag/electronic> .
 
-<http://www.example.com/Song/cbaab7db-3897-45bd-90e7-828f79059ef8>
-        <http://www.example.com/Song/artist>
-                "Maggie Reilly" ;
-        <http://www.example.com/Song/mbid>
-                "cbaab7db-3897-45bd-90e7-828f79059ef8" ;
-        <http://www.example.com/Song/name>
-                "To France" .
+<http://www.example.com/tag/icelandic>
+        <http://www.example.com/tag/name>
+                "icelandic" ;
+        <rdf:type>  "LastFMTag" .
 
-<http://www.example.com/Artist/3d191c12-be64-4f90-94d8-ac324b2b3544>
-        <http://www.example.com/Artist/mbid>
-                "3d191c12-be64-4f90-94d8-ac324b2b3544" ;
-        <http://www.example.com/Artist/name>
-                "Matthew Dear" ;
-        <http://www.example.com/performed>
-                <http://www.example.com/Song/22a61fdc-25fd-4739-8f96-ac981cf8578e> .
+<http://www.example.com/tag/wjlb-FM>
+        <http://www.example.com/tag/name>
+                "wjlb-FM" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/folk>
+        <http://www.example.com/tag/name>
+                "folk" ;
+        <rdf:type>  "LastFMTag" .
+
+<http://www.example.com/tag/summer>
+        <http://www.example.com/tag/name>
+                "summer" ;
+        <rdf:type>  "LastFMTag" .

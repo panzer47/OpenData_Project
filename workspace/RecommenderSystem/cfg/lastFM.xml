@@ -3,7 +3,7 @@
 <root>http://ws.audioscrobbler.com/2.0/</root>
 <userlimit>1000</userlimit>
 	<api_key>ac24a17112b7bcc80ffe29c96d5f6588</api_key>
-<Class id="User" key="1">
+<Class id="User" key="1" type="LastFMUser">
 <url>http://www.example.com/User/</url>
 <output>
 	<name>id</name>
@@ -31,7 +31,16 @@
 	<url>http://www.example.com/user/age</url>
 </output>
 </Class>
-<Class id="Artist" key="1">
+<Class id="Tags" key="1" type="LastFMTags">
+	<url>http://www.example.com/Artist/</url>
+<output>
+	<name>label</name>
+	<position>label</position>
+	<url>http://www.example.com/Artist/Label</url>
+</output>
+
+</Class>
+<Class id="Artist" key="1" type="LastFMArtist">
 	<url>http://www.example.com/Artist/</url>
 <output>
 	<name>mbid</name>
@@ -44,7 +53,7 @@
 	<url>http://www.example.com/Artist/name</url>
 </output>
 </Class>
-<Class id="Song" key="2">
+<Class id="Song" key="2" type="LastFMSong">
 <url>http://www.example.com/Song/</url>
 <output>
 	<name>name</name>
@@ -62,11 +71,11 @@
 	<url>http://www.example.com/Song/artist</url>
 </output>
 </Class>	 
-<Class id="Tag" key="1">
+<Class id="Tag" key="1" type="LastFMTag">
 	<url>http://www.example.com/tag/</url>
 	<output>
-		<name>name</name>
-		<position>name</position>
+		<name>label</name>
+		<position>label</position>
 		<url>http://www.example.com/tag/name</url>
 	</output>	
 </Class>
@@ -75,15 +84,26 @@
 	<origin>http://www.example.com/Artist</origin>
 	<destination>http://www.example.com/Song</destination>
 </Relation>
-<Relation id="like">
+<Relation id="Like">
 	<url>www.example.com/like</url>
 	<origin>www.example.com/User</origin>
 	<destination>www.example.com/Song</destination>
 </Relation>
-<Relation id="dislike">
+<Relation id="Dislike">
 	<url>www.example.com/dislike/</url>
 	<origin>www.example.com/User</origin>
 	<destination>www.example.com/Song</destination>
 </Relation>
+<Relation id="SongDescribed">
+	<url>www.example.com/isDescribed/</url>
+	<origin>www.example.com/Song</origin>
+	<destination>www.example.com/Tag</destination>
+</Relation>
+<Relation id="ArtistDescribed">
+	<url>www.example.com/isDescribed/</url>
+	<origin>www.example.com/Artist</origin>
+	<destination>www.example.com/Tag</destination>
+</Relation>
+
 
 </Last.fm>

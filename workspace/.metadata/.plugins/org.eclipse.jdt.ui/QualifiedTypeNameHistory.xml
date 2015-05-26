@@ -27,4 +27,6 @@
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.Property"/>
 <fullyQualifiedTypeName name="Datatypes.ArtistSong"/>
+<fullyQualifiedTypeName name="Datatypes.Dislike"/>
+<fullyQualifiedTypeName name="Datatypes.SongDescribed"/>
 </qualifiedTypeNameHistroy>

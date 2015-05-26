@@ -80,7 +80,7 @@ public class WriteTriples {
 				if (individual.equals(nomeClasseJava)) {
 					// QUI HO TROVATO IL NOME CLASSE JAVA SULLXML
 					// System.out.println("yuppieMADONNASBORROSANGUEDICERVO"+nomeClasseJava);
-
+ 
 					classetrovata = true;
 					ArrayList<String> name = new ArrayList<String>();
 					ArrayList<String> position = new ArrayList<String>();
@@ -88,7 +88,9 @@ public class WriteTriples {
 					String urlResource = "";
 					String key = ((Element) nList.item(i)).getAttribute("key");
 					classes[i] = ((Element) nList.item(i)).getAttribute("id");
+					String type=((Element) nList.item(i)).getAttribute("type");
 					NodeList childs = nList.item(i).getChildNodes();
+					
 					for (int l = 0; l < childs.getLength(); l++) {
 						// System.out.println( childs.item(l).getNodeName()+" 2"
 						// );
@@ -145,7 +147,8 @@ public class WriteTriples {
 							+ fullList.get(ii).toString());
 					Resource r = m.createResource(urlResource
 							+ values[Integer.parseInt(key) - 1]);// );
-
+					Property taip=m.createProperty("rdf:type");
+					r.addProperty(taip, type);
 					for (int j = 0; j < values.length; j++) {
 						Property newProperty = m.createProperty(urlProperty
 								.get(j));
