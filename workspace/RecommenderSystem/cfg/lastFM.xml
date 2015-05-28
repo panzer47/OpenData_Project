@@ -85,24 +85,24 @@
 	<destination>http://www.example.com/Song</destination>
 </Relation>
 <Relation id="Like">
-	<url>www.example.com/like</url>
-	<origin>www.example.com/User</origin>
-	<destination>www.example.com/Song</destination>
+	<url>http://www.example.com/like</url>
+	<origin>http://www.example.com/User</origin>
+	<destination>http://www.example.com/Song</destination>
 </Relation>
 <Relation id="Dislike">
-	<url>www.example.com/dislike/</url>
-	<origin>www.example.com/User</origin>
-	<destination>www.example.com/Song</destination>
+	<url>http://www.example.com/dislike</url>
+	<origin>http://www.example.com/User</origin>
+	<destination>http://www.example.com/Song</destination>
 </Relation>
 <Relation id="SongDescribed">
-	<url>www.example.com/isDescribed/</url>
-	<origin>www.example.com/Song</origin>
-	<destination>www.example.com/Tag</destination>
+	<url>http://www.example.com/isDescribed</url>
+	<origin>http://www.example.com/Song</origin>
+	<destination>http://www.example.com/Tag</destination>
 </Relation>
 <Relation id="ArtistDescribed">
-	<url>www.example.com/isDescribed/</url>
-	<origin>www.example.com/Artist</origin>
-	<destination>www.example.com/Tag</destination>
+	<url>http://www.example.com/isDescribed</url>
+	<origin>http://www.example.com/Artist</origin>
+	<destination>http://www.example.com/Tag</destination>
 </Relation>
 
 

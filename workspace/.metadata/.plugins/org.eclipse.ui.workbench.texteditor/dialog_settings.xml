@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="isDescribed" key="selection"/>
+		<item value="rdf:type" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="rdf:type"/>
+			<item value="sleep"/>
+			<item value="test.sql"/>
 			<item value="isDescribed"/>
 			<item value="relation"/>
 			<item value="described"/>
 			<item value="Resource"/>
 			<item value="getResource"/>
-			<item value="getresource"/>
-			<item value="get"/>
-			<item value="rdfs"/>
 		</list>
 		<list key="replacehistory">
 		</list>

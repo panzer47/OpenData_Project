@@ -1,0 +1,11 @@
+import com.hp.hpl.jena.rdf.model.Model;
+
+
+public class LoadTriples {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Model model = RDFDataMgr.loadModel("data.ttl") ;
+	}
+
+}

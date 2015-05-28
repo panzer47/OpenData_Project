@@ -1,0 +1,950 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.example.com/tag/"
+    xmlns:j.1="http://www.example.com/Artist/"
+    xmlns:j.2="http://www.example.com/Song/"
+    xmlns:j.3="http://www.example.com/user/"
+    xmlns:j.4="http://www.example.com/" > 
+  <rdf:Description rdf:about="http://www.example.com/tag/rnb">
+    <j.0:name>rnb</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/78532513-0857-4907-9d65-42d17ead370b">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/alternative rock"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Linkin Park"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/rock"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Nu Metal"/>
+    <j.2:artist>Linkin Park</j.2:artist>
+    <j.2:mbid>78532513-0857-4907-9d65-42d17ead370b</j.2:mbid>
+    <j.2:name>Papercut</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/christmas">
+    <j.0:name>christmas</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/60ef3385-6b0e-4a90-9b9a-73ee0044ebd9">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/emo"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/hardcore"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/post-hardcore"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/screamo"/>
+    <j.2:artist>Alexisonfire</j.2:artist>
+    <j.2:mbid>60ef3385-6b0e-4a90-9b9a-73ee0044ebd9</j.2:mbid>
+    <j.2:name>.44 Caliber Love Letter</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/e93185a9-d8cc-4340-9d60-9427c45a2709">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/End Credits"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Lo-Fi"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/indie"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/ambient"/>
+    <j.2:artist>Perfume Genius</j.2:artist>
+    <j.2:mbid>e93185a9-d8cc-4340-9d60-9427c45a2709</j.2:mbid>
+    <j.2:name>Fool</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/End Credits">
+    <j.0:name>End Credits</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/0589aa4e-2138-4c8a-aaab-ef4a93779583">
+    <j.4:performed rdf:resource="http://www.example.com/Song/db595ead-d60e-4ed7-8bf1-6955f90d3fca"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/indie"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/post-punk"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/synthpop"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/electronic"/>
+    <j.1:name>Chromatics</j.1:name>
+    <j.1:mbid>0589aa4e-2138-4c8a-aaab-ef4a93779583</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/R Kelly Ignition">
+    <j.0:name>R Kelly Ignition</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/cf7560ef-7714-477e-b4cd-59de0a2d11fb">
+    <j.4:performed rdf:resource="http://www.example.com/Song/c41cb7a6-d515-44a4-b21c-4967c7305d7b"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/neo-rockabilly"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/irish"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/female vocalists"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/rockabilly"/>
+    <j.1:name>Imelda May</j.1:name>
+    <j.1:mbid>cf7560ef-7714-477e-b4cd-59de0a2d11fb</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/af5062cd-ffba-4020-83ea-07183c663365">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/simply red"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/soul"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/80s"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/pop"/>
+    <j.2:artist>Simply Red</j.2:artist>
+    <j.2:mbid>af5062cd-ffba-4020-83ea-07183c663365</j.2:mbid>
+    <j.2:name>Money's Too Tight (To Mention)</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/User/36461520">
+    <j.3:age>31</j.3:age>
+    <j.3:name>Fran</j.3:name>
+    <j.3:id>36461520</j.3:id>
+    <j.3:gender>female</j.3:gender>
+    <j.3:country>UK</j.3:country>
+    <rdf:type>LastFMUser</rdf:type>
+    <j.4:dislike rdf:resource="http://www.example.com/Song/78532513-0857-4907-9d65-42d17ead370b"/>
+    <j.4:like rdf:resource="http://www.example.com/Song/12c02287-64bd-4b39-863a-39e9826090f2"/>
+    <j.4:like rdf:resource="http://www.example.com/Song/b680dcd2-8bea-4906-be03-bf07fc7a4540"/>
+    <j.4:like rdf:resource="http://www.example.com/Song/c41cb7a6-d515-44a4-b21c-4967c7305d7b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/sweet sadness">
+    <j.0:name>sweet sadness</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/rock">
+    <j.0:name>rock</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/cover">
+    <j.0:name>cover</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/emo">
+    <j.0:name>emo</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/2015 single">
+    <j.0:name>2015 single</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/Nu Metal">
+    <j.0:name>Nu Metal</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/future garage">
+    <j.0:name>future garage</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/electronic">
+    <j.0:name>electronic</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/4 Stars">
+    <j.0:name>4 Stars</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/noise rock">
+    <j.0:name>noise rock</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/4f4370ab-205a-4f4a-8f5b-bbc9f3dd3c39">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Love"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/r&amp;b"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/summer"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/2012"/>
+    <j.2:artist>Solange</j.2:artist>
+    <j.2:mbid>4f4370ab-205a-4f4a-8f5b-bbc9f3dd3c39</j.2:mbid>
+    <j.2:name>Losing You</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/d20c9b30-d59e-4426-b804-82a0e54dbe14">
+    <j.4:performed rdf:resource="http://www.example.com/Song/0e40d80b-a3ea-4fac-afbb-ef822cc1e644"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/female vocalists"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/electropop"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/dance"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/pop"/>
+    <j.1:name>Ke$ha</j.1:name>
+    <j.1:mbid>d20c9b30-d59e-4426-b804-82a0e54dbe14</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/others">
+    <j.0:name>others</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/alternative">
+    <j.0:name>alternative</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/Garage Rock">
+    <j.0:name>Garage Rock</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/gr nr">
+    <j.0:name>gr nr</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/simply red">
+    <j.0:name>simply red</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/classic rock">
+    <j.0:name>classic rock</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/410e7fd3-b865-4fa0-bb18-1b7fd53382ca">
+    <j.4:performed rdf:resource="http://www.example.com/Song/4f4370ab-205a-4f4a-8f5b-bbc9f3dd3c39"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/female vocalists"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/pop"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/soul"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/rnb"/>
+    <j.1:name>Solange</j.1:name>
+    <j.1:mbid>410e7fd3-b865-4fa0-bb18-1b7fd53382ca</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/post-punk">
+    <j.0:name>post-punk</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/soul">
+    <j.0:name>soul</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/slow jam">
+    <j.0:name>slow jam</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/16 rem 120518">
+    <j.0:name>16 rem 120518</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/indie">
+    <j.0:name>indie</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/experimental">
+    <j.0:name>experimental</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/bluegrass">
+    <j.0:name>bluegrass</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/kesha">
+    <j.0:name>kesha</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/dubstep">
+    <j.0:name>dubstep</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/e0d2ac38-09c5-462e-ae0e-60dea6d9ebe8">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/soulful"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/r and b"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/male vocalists"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/soul"/>
+    <j.2:artist>R. Kelly</j.2:artist>
+    <j.2:mbid>e0d2ac38-09c5-462e-ae0e-60dea6d9ebe8</j.2:mbid>
+    <j.2:name>When a Woman Loves</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/0e40d80b-a3ea-4fac-afbb-ef822cc1e644">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/electronic"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/kesha"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/pop"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/dance"/>
+    <j.2:artist>Ke$ha</j.2:artist>
+    <j.2:mbid>0e40d80b-a3ea-4fac-afbb-ef822cc1e644</j.2:mbid>
+    <j.2:name>Kiss n Tell</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/female vocalists">
+    <j.0:name>female vocalists</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/80s">
+    <j.0:name>80s</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/b6528658-6e59-4f15-8690-bea679d8c0c2">
+    <j.4:performed rdf:resource="http://www.example.com/Song/12c02287-64bd-4b39-863a-39e9826090f2"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/kgrl"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Grunge"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/british"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/rock"/>
+    <j.1:name>Bleech</j.1:name>
+    <j.1:mbid>b6528658-6e59-4f15-8690-bea679d8c0c2</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/d87da388-bbcb-4fff-aa3a-6088d4105f58">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/bass music"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/4 Stars"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/british"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/electronic"/>
+    <j.2:artist>Jamie xx</j.2:artist>
+    <j.2:mbid>d87da388-bbcb-4fff-aa3a-6088d4105f58</j.2:mbid>
+    <j.2:name>Gosh</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/11ab49a5-fd58-4905-997d-57e70064e893">
+    <j.4:performed rdf:resource="http://www.example.com/Song/186ad283-bb18-49ae-851c-2fd4a49e4053"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/noise rock"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/experimental"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Lo-Fi"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/post-punk"/>
+    <j.1:name>The Intelligence</j.1:name>
+    <j.1:mbid>11ab49a5-fd58-4905-997d-57e70064e893</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/c41cb7a6-d515-44a4-b21c-4967c7305d7b">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/16 rem 120518"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/10s"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/female vocalists"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/rockabilly"/>
+    <j.2:artist>Imelda May</j.2:artist>
+    <j.2:mbid>c41cb7a6-d515-44a4-b21c-4967c7305d7b</j.2:mbid>
+    <j.2:name>Mayhem</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/british">
+    <j.0:name>british</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/d1515727-4a93-4c0d-88cb-d7a9fce01879">
+    <j.4:performed rdf:resource="http://www.example.com/Song/d87da388-bbcb-4fff-aa3a-6088d4105f58"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/UK Garage"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/future garage"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/electronic"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/dubstep"/>
+    <j.1:name>Jamie xx</j.1:name>
+    <j.1:mbid>d1515727-4a93-4c0d-88cb-d7a9fce01879</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/1fc6ee4c-f9f3-4be3-9ddb-d6b4cbfc7825">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/australian"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Garage Rock"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/2015 single"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Grunge"/>
+    <j.2:artist>Courtney Barnett</j.2:artist>
+    <j.2:mbid>1fc6ee4c-f9f3-4be3-9ddb-d6b4cbfc7825</j.2:mbid>
+    <j.2:name>Pedestrian at Best</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/indie rock">
+    <j.0:name>indie rock</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/Scottish">
+    <j.0:name>Scottish</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/0533243f-7f44-44a4-8571-8e8c4cc8d1a1">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/indie"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/acoustic"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/singer-songwriter"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/folk"/>
+    <j.2:artist>Sun Kil Moon</j.2:artist>
+    <j.2:mbid>0533243f-7f44-44a4-8571-8e8c4cc8d1a1</j.2:mbid>
+    <j.2:name>I Can't Live Without My Mother's Love</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/r&amp;b">
+    <j.0:name>r&amp;b</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/ef2c6449-d02b-415b-ad8c-c14c08266552">
+    <j.4:performed rdf:resource="http://www.example.com/Song/0533243f-7f44-44a4-8571-8e8c4cc8d1a1"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/indie rock"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/indie"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/singer-songwriter"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/folk"/>
+    <j.1:name>Sun Kil Moon</j.1:name>
+    <j.1:mbid>ef2c6449-d02b-415b-ad8c-c14c08266552</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/Maggie Reilly">
+    <j.0:name>Maggie Reilly</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/b071f9fa-14b0-4217-8e97-eb41da73f598">
+    <j.4:performed rdf:resource="http://www.example.com/Song/d1079902-3b08-4ea3-830c-821256863d86"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/60s"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/british"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/rock"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/classic rock"/>
+    <j.1:name>The Rolling Stones</j.1:name>
+    <j.1:mbid>b071f9fa-14b0-4217-8e97-eb41da73f598</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/10s">
+    <j.0:name>10s</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/hip hop">
+    <j.0:name>hip hop</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/0702eecf-27d1-4372-9bd6-2b0fb794ceff">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/R. Kelly"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/rnb"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/hip hop"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/R Kelly Ignition"/>
+    <j.2:artist>R. Kelly</j.2:artist>
+    <j.2:mbid>0702eecf-27d1-4372-9bd6-2b0fb794ceff</j.2:mbid>
+    <j.2:name>Ignition Remix</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/Mellow">
+    <j.0:name>Mellow</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/kgrl">
+    <j.0:name>kgrl</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/90s">
+    <j.0:name>90s</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/656ad517-b741-47ba-845a-e6ea223d8b39">
+    <j.4:performed rdf:resource="http://www.example.com/Song/cbaab7db-3897-45bd-90e7-828f79059ef8"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/80s"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Scottish"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/female vocalists"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/pop"/>
+    <j.1:name>Maggie Reilly</j.1:name>
+    <j.1:mbid>656ad517-b741-47ba-845a-e6ea223d8b39</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/rockabilly">
+    <j.0:name>rockabilly</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/neo-rockabilly">
+    <j.0:name>neo-rockabilly</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/1dc865e0-6b46-4217-9d94-ef00ea259e00">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/beautiful"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Mellow"/>
+    <j.2:artist>The Velvet Underground</j.2:artist>
+    <j.2:mbid>1dc865e0-6b46-4217-9d94-ef00ea259e00</j.2:mbid>
+    <j.2:name>New Age (Live)</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/Grunge">
+    <j.0:name>Grunge</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/rap">
+    <j.0:name>rap</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/User/7737850">
+    <j.3:id>7737850</j.3:id>
+    <j.4:like rdf:resource="http://www.example.com/Song/328a4c68-459f-4db0-9aa3-be987a793a24"/>
+    <j.3:country>UK</j.3:country>
+    <j.4:dislike rdf:resource="http://www.example.com/Song/fd30a83e-76cf-4ac6-a35b-113244574117"/>
+    <j.4:like rdf:resource="http://www.example.com/Song/db595ead-d60e-4ed7-8bf1-6955f90d3fca"/>
+    <rdf:type>LastFMUser</rdf:type>
+    <j.4:dislike rdf:resource="http://www.example.com/Song/0702eecf-27d1-4372-9bd6-2b0fb794ceff"/>
+    <j.4:like rdf:resource="http://www.example.com/Song/e93185a9-d8cc-4340-9d60-9427c45a2709"/>
+    <j.4:like rdf:resource="http://www.example.com/Song/021dbd3e-c8f4-4c57-9a22-96ca36286ab1"/>
+    <j.4:dislike rdf:resource="http://www.example.com/Song/1dc865e0-6b46-4217-9d94-ef00ea259e00"/>
+    <j.4:dislike rdf:resource="http://www.example.com/Song/437c059c-431d-4ddb-b112-041897188861"/>
+    <j.3:age>33</j.3:age>
+    <j.4:dislike rdf:resource="http://www.example.com/Song/16b3b830-c6ae-4259-a0c1-95a88f39b92e"/>
+    <j.4:dislike rdf:resource="http://www.example.com/Song/186ad283-bb18-49ae-851c-2fd4a49e4053"/>
+    <j.4:like rdf:resource="http://www.example.com/Song/1fc6ee4c-f9f3-4be3-9ddb-d6b4cbfc7825"/>
+    <j.3:gender>male</j.3:gender>
+    <j.4:like rdf:resource="http://www.example.com/Song/4f4370ab-205a-4f4a-8f5b-bbc9f3dd3c39"/>
+    <j.4:dislike rdf:resource="http://www.example.com/Song/e0d2ac38-09c5-462e-ae0e-60dea6d9ebe8"/>
+    <j.3:name>Michael Coffey</j.3:name>
+    <j.4:like rdf:resource="http://www.example.com/Song/0533243f-7f44-44a4-8571-8e8c4cc8d1a1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/d1079902-3b08-4ea3-830c-821256863d86">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/70s"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/country"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/rock"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/classic rock"/>
+    <j.2:artist>The Rolling Stones</j.2:artist>
+    <j.2:mbid>d1079902-3b08-4ea3-830c-821256863d86</j.2:mbid>
+    <j.2:name>Far Away Eyes</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/437c059c-431d-4ddb-b112-041897188861">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/90s"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/wjlb-FM"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/rnb"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/slow jam"/>
+    <j.2:artist>R. Kelly</j.2:artist>
+    <j.2:mbid>437c059c-431d-4ddb-b112-041897188861</j.2:mbid>
+    <j.2:name>It Seems Like You're Ready</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/hardcore">
+    <j.0:name>hardcore</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/seen live">
+    <j.0:name>seen live</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/021dbd3e-c8f4-4c57-9a22-96ca36286ab1">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/summer tune"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Heartbreaking"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/pop"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/sweet sadness"/>
+    <j.2:artist>Alvvays</j.2:artist>
+    <j.2:mbid>021dbd3e-c8f4-4c57-9a22-96ca36286ab1</j.2:mbid>
+    <j.2:name>Party Police</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/f59c5520-5f46-4d2c-b2c4-822eabf53419">
+    <j.4:performed rdf:resource="http://www.example.com/Song/78532513-0857-4907-9d65-42d17ead370b"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/alternative"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/alternative rock"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Nu Metal"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/rock"/>
+    <j.1:name>Linkin Park</j.1:name>
+    <j.1:mbid>f59c5520-5f46-4d2c-b2c4-822eabf53419</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/electropop">
+    <j.0:name>electropop</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/Rodney 666">
+    <j.0:name>Rodney 666</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/summer">
+    <j.0:name>summer</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/Lo-Fi">
+    <j.0:name>Lo-Fi</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/99450990-b24e-4132-bb68-235f8c3e2564">
+    <j.4:performed rdf:resource="http://www.example.com/Song/021dbd3e-c8f4-4c57-9a22-96ca36286ab1"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/indie"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Lo-Fi"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/indie pop"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/dream pop"/>
+    <j.1:name>Alvvays</j.1:name>
+    <j.1:mbid>99450990-b24e-4132-bb68-235f8c3e2564</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/wjlb-FM">
+    <j.0:name>wjlb-FM</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/User/2930743">
+    <rdf:type>LastFMUser</rdf:type>
+    <j.4:dislike rdf:resource="http://www.example.com/Song/84a5e741-4b9e-445a-bed1-9bf8be126280"/>
+    <j.4:dislike rdf:resource="http://www.example.com/Song/0e40d80b-a3ea-4fac-afbb-ef822cc1e644"/>
+    <j.3:id>2930743</j.3:id>
+    <j.4:like rdf:resource="http://www.example.com/Song/d87da388-bbcb-4fff-aa3a-6088d4105f58"/>
+    <j.4:dislike rdf:resource="http://www.example.com/Song/e19ee975-5444-465a-b5b0-e8099ed16765"/>
+    <j.4:dislike rdf:resource="http://www.example.com/Song/60ef3385-6b0e-4a90-9b9a-73ee0044ebd9"/>
+    <j.3:country></j.3:country>
+    <j.4:like rdf:resource="http://www.example.com/Song/e7cbd970-7a0f-490b-90ff-448540cf0c75"/>
+    <j.4:dislike rdf:resource="http://www.example.com/Song/cbaab7db-3897-45bd-90e7-828f79059ef8"/>
+    <j.3:name>â˜…â™¥â˜… Badass Mod from the Future - Last Seen Tomorrow Afternoonâ˜…â™¥â˜…</j.3:name>
+    <j.3:gender>female</j.3:gender>
+    <j.4:like rdf:resource="http://www.example.com/Song/d1079902-3b08-4ea3-830c-821256863d86"/>
+    <j.4:like rdf:resource="http://www.example.com/Song/af5062cd-ffba-4020-83ea-07183c663365"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/beautiful">
+    <j.0:name>beautiful</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/60s">
+    <j.0:name>60s</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/metalcore">
+    <j.0:name>metalcore</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/post-hardcore">
+    <j.0:name>post-hardcore</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/Arniecore">
+    <j.0:name>Arniecore</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/e19ee975-5444-465a-b5b0-e8099ed16765">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/christmas"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/cover"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/thrash metal"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/metal"/>
+    <j.2:artist>Austrian Death Machine</j.2:artist>
+    <j.2:mbid>e19ee975-5444-465a-b5b0-e8099ed16765</j.2:mbid>
+    <j.2:name>Jingle Bells</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/bf0caafc-2b20-4e07-ab85-87e14ff430ce">
+    <j.4:performed rdf:resource="http://www.example.com/Song/16b3b830-c6ae-4259-a0c1-95a88f39b92e"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/british"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/female vocalists"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/90s"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/pop"/>
+    <j.1:name>Spice Girls</j.1:name>
+    <j.1:mbid>bf0caafc-2b20-4e07-ab85-87e14ff430ce</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/e29641cc-3658-4886-89d7-3a146d2d3d75">
+    <j.4:performed rdf:resource="http://www.example.com/Song/fd30a83e-76cf-4ac6-a35b-113244574117"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/stand-up"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/others"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Dementia"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/comedy"/>
+    <j.1:name>Tim Wilson</j.1:name>
+    <j.1:mbid>e29641cc-3658-4886-89d7-3a146d2d3d75</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/b680dcd2-8bea-4906-be03-bf07fc7a4540">
+    <j.2:artist>Mustered Courage</j.2:artist>
+    <j.2:mbid>b680dcd2-8bea-4906-be03-bf07fc7a4540</j.2:mbid>
+    <j.2:name>Go To Hell</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/55111838-f001-494a-a1b5-9d818db85810">
+    <j.4:performed rdf:resource="http://www.example.com/Song/1fc6ee4c-f9f3-4be3-9ddb-d6b4cbfc7825"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/indie"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/indie folk"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/singer-songwriter"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/folk"/>
+    <j.1:name>Courtney Barnett</j.1:name>
+    <j.1:mbid>55111838-f001-494a-a1b5-9d818db85810</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/Love">
+    <j.0:name>Love</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/e2305342-0bde-4a2c-aed0-4b88694834de">
+    <j.4:performed rdf:resource="http://www.example.com/Song/e7cbd970-7a0f-490b-90ff-448540cf0c75"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/indie"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/indie rock"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/psychedelic"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Lo-Fi"/>
+    <j.1:name>Unknown Mortal Orchestra</j.1:name>
+    <j.1:mbid>e2305342-0bde-4a2c-aed0-4b88694834de</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/ed68276f-c8b7-4b28-bbda-efb5030e15c1">
+    <j.4:performed rdf:resource="http://www.example.com/Song/b680dcd2-8bea-4906-be03-bf07fc7a4540"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/seen live"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/bluegrass"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/country"/>
+    <j.1:name>Mustered Courage</j.1:name>
+    <j.1:mbid>ed68276f-c8b7-4b28-bbda-efb5030e15c1</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/R. Kelly">
+    <j.0:name>R. Kelly</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/Spice Girls">
+    <j.0:name>Spice Girls</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/dream pop">
+    <j.0:name>dream pop</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/folk">
+    <j.0:name>folk</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/94b0fb9d-a066-4823-b2ec-af1d324bcfcf">
+    <j.4:performed rdf:resource="http://www.example.com/Song/1dc865e0-6b46-4217-9d94-ef00ea259e00"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/proto-punk"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/psychedelic"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/classic rock"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/rock"/>
+    <j.1:name>The Velvet Underground</j.1:name>
+    <j.1:mbid>94b0fb9d-a066-4823-b2ec-af1d324bcfcf</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/70s">
+    <j.0:name>70s</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/c2d25856-a09a-4d15-b404-77dd19c19e63">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Hip-Hop"/>
+    <j.4:performed rdf:resource="http://www.example.com/Song/437c059c-431d-4ddb-b112-041897188861"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/soul"/>
+    <j.1:mbid>c2d25856-a09a-4d15-b404-77dd19c19e63</j.1:mbid>
+    <j.4:performed rdf:resource="http://www.example.com/Song/e0d2ac38-09c5-462e-ae0e-60dea6d9ebe8"/>
+    <j.4:performed rdf:resource="http://www.example.com/Song/0702eecf-27d1-4372-9bd6-2b0fb794ceff"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/rap"/>
+    <rdf:type>LastFMArtist</rdf:type>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/rnb"/>
+    <j.1:name>R. Kelly</j.1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/male vocalists">
+    <j.0:name>male vocalists</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/dance">
+    <j.0:name>dance</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/comedy">
+    <j.0:name>comedy</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/fd30a83e-76cf-4ac6-a35b-113244574117">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Rodney 666"/>
+    <j.2:artist>Tim Wilson</j.2:artist>
+    <j.2:mbid>fd30a83e-76cf-4ac6-a35b-113244574117</j.2:mbid>
+    <j.2:name>Chattanooga</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/summer tune">
+    <j.0:name>summer tune</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/UK Garage">
+    <j.0:name>UK Garage</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/best songs of 2012">
+    <j.0:name>best songs of 2012</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/ambient">
+    <j.0:name>ambient</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/indie folk">
+    <j.0:name>indie folk</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/bass music">
+    <j.0:name>bass music</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/alternative rock">
+    <j.0:name>alternative rock</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/emocore">
+    <j.0:name>emocore</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/synthpop">
+    <j.0:name>synthpop</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/irish">
+    <j.0:name>irish</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/proto-punk">
+    <j.0:name>proto-punk</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/6778f7b9-5da5-43dc-a890-72d169042723">
+    <j.4:performed rdf:resource="http://www.example.com/Song/e19ee975-5444-465a-b5b0-e8099ed16765"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/metal"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Arniecore"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/thrash metal"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/metalcore"/>
+    <j.1:name>Austrian Death Machine</j.1:name>
+    <j.1:mbid>6778f7b9-5da5-43dc-a890-72d169042723</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/soulful">
+    <j.0:name>soulful</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/indie pop">
+    <j.0:name>indie pop</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/2012">
+    <j.0:name>2012</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/pop">
+    <j.0:name>pop</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/cbaab7db-3897-45bd-90e7-828f79059ef8">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Maggie Reilly"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/female vocalists"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/dreaming"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/pop"/>
+    <j.2:artist>Maggie Reilly</j.2:artist>
+    <j.2:mbid>cbaab7db-3897-45bd-90e7-828f79059ef8</j.2:mbid>
+    <j.2:name>To France</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/bc1c8f3f-6f36-4086-a470-87ed813dd429">
+    <j.4:performed rdf:resource="http://www.example.com/Song/60ef3385-6b0e-4a90-9b9a-73ee0044ebd9"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/emocore"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/hardcore"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/screamo"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/post-hardcore"/>
+    <j.1:name>Alexisonfire</j.1:name>
+    <j.1:mbid>bc1c8f3f-6f36-4086-a470-87ed813dd429</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/dreaming">
+    <j.0:name>dreaming</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/16b3b830-c6ae-4259-a0c1-95a88f39b92e">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/female vocalists"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/Spice Girls"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/90s"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/pop"/>
+    <j.2:artist>Spice Girls</j.2:artist>
+    <j.2:mbid>16b3b830-c6ae-4259-a0c1-95a88f39b92e</j.2:mbid>
+    <j.2:name>Mama</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/328a4c68-459f-4db0-9aa3-be987a793a24">
+    <j.2:artist>Emmy the Great</j.2:artist>
+    <j.2:mbid>328a4c68-459f-4db0-9aa3-be987a793a24</j.2:mbid>
+    <j.2:name>A Bowl Collecting Blood</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/Linkin Park">
+    <j.0:name>Linkin Park</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/psychedelic">
+    <j.0:name>psychedelic</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/thrash metal">
+    <j.0:name>thrash metal</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/12c02287-64bd-4b39-863a-39e9826090f2">
+    <j.2:artist>Bleech</j.2:artist>
+    <j.2:mbid>12c02287-64bd-4b39-863a-39e9826090f2</j.2:mbid>
+    <j.2:name>Break My Nose</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/db595ead-d60e-4ed7-8bf1-6955f90d3fca">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/alternative"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/best songs of 2012"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/2012"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/indie"/>
+    <j.2:artist>Chromatics</j.2:artist>
+    <j.2:mbid>db595ead-d60e-4ed7-8bf1-6955f90d3fca</j.2:mbid>
+    <j.2:name>Kill for Love</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/stand-up">
+    <j.0:name>stand-up</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/britpop">
+    <j.0:name>britpop</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/186ad283-bb18-49ae-851c-2fd4a49e4053">
+    <j.2:artist>The Intelligence</j.2:artist>
+    <j.2:mbid>186ad283-bb18-49ae-851c-2fd4a49e4053</j.2:mbid>
+    <j.2:name>Sunny Backyard</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/australian">
+    <j.0:name>australian</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/metal">
+    <j.0:name>metal</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/country">
+    <j.0:name>country</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/84a5e741-4b9e-445a-bed1-9bf8be126280">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/britpop"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/alternative"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/indie rock"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/indie"/>
+    <j.2:artist>Bloc Party</j.2:artist>
+    <j.2:mbid>84a5e741-4b9e-445a-bed1-9bf8be126280</j.2:mbid>
+    <j.2:name>Two More Years</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/electro-funk">
+    <j.0:name>electro-funk</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/r and b">
+    <j.0:name>r and b</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/60bbceb2-0ddc-403b-970b-b4e9c3b2de5c">
+    <j.4:performed rdf:resource="http://www.example.com/Song/328a4c68-459f-4db0-9aa3-be987a793a24"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/acoustic"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/indie"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/singer-songwriter"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/female vocalists"/>
+    <j.1:name>Emmy the Great</j.1:name>
+    <j.1:mbid>60bbceb2-0ddc-403b-970b-b4e9c3b2de5c</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Song/e7cbd970-7a0f-490b-90ff-448540cf0c75">
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/electro-funk"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/indie"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/gr nr"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/2015 single"/>
+    <j.2:artist>Unknown Mortal Orchestra</j.2:artist>
+    <j.2:mbid>e7cbd970-7a0f-490b-90ff-448540cf0c75</j.2:mbid>
+    <j.2:name>Multi-Love</j.2:name>
+    <rdf:type>LastFMSong</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/acoustic">
+    <j.0:name>acoustic</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/Hip-Hop">
+    <j.0:name>Hip-Hop</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/Heartbreaking">
+    <j.0:name>Heartbreaking</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/singer-songwriter">
+    <j.0:name>singer-songwriter</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/8c538f11-c141-4588-8ecb-931083524186">
+    <j.4:performed rdf:resource="http://www.example.com/Song/84a5e741-4b9e-445a-bed1-9bf8be126280"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/british"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/alternative"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/indie rock"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/indie"/>
+    <j.1:name>Bloc Party</j.1:name>
+    <j.1:mbid>8c538f11-c141-4588-8ecb-931083524186</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/142415a7-ebe7-4beb-99c6-ca03c332d259">
+    <j.4:performed rdf:resource="http://www.example.com/Song/af5062cd-ffba-4020-83ea-07183c663365"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/british"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/soul"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/80s"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/pop"/>
+    <j.1:name>Simply Red</j.1:name>
+    <j.1:mbid>142415a7-ebe7-4beb-99c6-ca03c332d259</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/screamo">
+    <j.0:name>screamo</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/Artist/c4ff10e0-ae5a-467d-a409-6e0b4bf241eb">
+    <j.4:performed rdf:resource="http://www.example.com/Song/e93185a9-d8cc-4340-9d60-9427c45a2709"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/indie"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/experimental"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/ambient"/>
+    <j.4:isDescribed rdf:resource="http://www.example.com/Tag/singer-songwriter"/>
+    <j.1:name>Perfume Genius</j.1:name>
+    <j.1:mbid>c4ff10e0-ae5a-467d-a409-6e0b4bf241eb</j.1:mbid>
+    <rdf:type>LastFMArtist</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/tag/Dementia">
+    <j.0:name>Dementia</j.0:name>
+    <rdf:type>LastFMTag</rdf:type>
+  </rdf:Description>
+</rdf:RDF>

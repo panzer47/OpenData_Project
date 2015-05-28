@@ -1,0 +1,19 @@
+import org.apache.jena.riot.RDFDataMgr;
+
+import com.hp.hpl.jena.rdf.model.Model;
+import com.hp.hpl.jena.rdf.model.Property;
+import com.hp.hpl.jena.rdf.model.Resource;
+
+
+public class LoadTriples {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Model model = RDFDataMgr.loadModel("dumpLASTFM.rdf", "RDF/XML") ;
+		//Resource r=model.getResource("http://www.example.com/Song/60ef3385-6b0e-4a90-9b9a-73ee0044ebd9");
+		//roperty p=model.getProperty("isDescribed");
+		//RDFDataMgr.loadModel(uri, lang)
+		System.out.println("success"+model.isEmpty());
+	}
+
+}

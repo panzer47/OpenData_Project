@@ -16,10 +16,12 @@ import org.xml.sax.SAXException;
 import others.LastFM;
 import Datatypes.Artist;
 
+import com.hp.hpl.jena.query.Dataset;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Property;
 import com.hp.hpl.jena.rdf.model.Resource;
+import com.hp.hpl.jena.tdb.TDBFactory;
 
 public class WriteTriples {
 
@@ -34,6 +36,7 @@ public class WriteTriples {
 	public static void buildTriples(List<Object> fullList)
 			throws ParserConfigurationException, SAXException, IOException {
 		Model m = ModelFactory.createDefaultModel();
+		//Dataset dataset= TDBFactory.createDataset("Dataset");
 		// Resource
 		// r=m.createResource("http://www.example.com/laputtanadituamadre" );
 		// Property sex=m.createProperty("http://example.org/ontology/sex");
@@ -147,7 +150,7 @@ public class WriteTriples {
 							+ fullList.get(ii).toString());
 					Resource r = m.createResource(urlResource
 							+ values[Integer.parseInt(key) - 1]);// );
-					Property taip=m.createProperty("rdf:type");
+					Property taip=m.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
 					r.addProperty(taip, type);
 					for (int j = 0; j < values.length; j++) {
 						Property newProperty = m.createProperty(urlProperty
@@ -207,9 +210,12 @@ public class WriteTriples {
 				}
 			}
 		}
-		String nameFile = "testSQL.rdf";
+		String nameFile = "dumpLASTFM.rdf";
 		PrintWriter writer = new PrintWriter(nameFile, "UTF-8");
-		m.write(writer, "Turtle");
+		m.write(writer, "RDF/XML");
+		
+		m.close();
+		//dataset.close();
 	}
 
 	public static void readXML(String toSearch)

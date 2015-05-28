@@ -25,6 +25,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
+import org.xml.sax.SAXParseException;
 
 import others.LastFM;
 import Datatypes.Artist;
@@ -60,7 +61,7 @@ public class AskToLastFm {
  
  public static void main(String[] args) throws ParserConfigurationException, SAXException, InterruptedException, IOException  {
 	//String tempurl="http://ws.audioscrobbler.com/2.0/?method=user.getplaylists&user=panzerr&api_key=ac24a17112b7bcc80ffe29c96d5f6588&format=json";
-	 String id="rj"; int lim=5;
+	 String id="rj"; int lim=400;
 	 ArrayList<String> listIDusers=new ArrayList<String>();
 	 List<User> users=new ArrayList<User>();
 	 List<Artist> artists=new ArrayList<Artist>();
@@ -75,23 +76,23 @@ public class AskToLastFm {
      searchUsers(id, lim, listIDusers, users);
  // System.out.println("trololol + "+listIDusers.size()+"- "+users.get(19).getSex());
   for(int i=0; i<listIDusers.size();i++) {
-	  searchLikes(listIDusers.get(i), lim, songs, artists, artistsong, like, dislike, "LIKE" );
-	  searchLikes(listIDusers.get(i), lim, songs, artists, artistsong, like,dislike, "DISLIKE" );
+	  searchLikes(listIDusers.get(i), 100, songs, artists, artistsong, like, dislike, "LIKE" );
+	  searchLikes(listIDusers.get(i), 100, songs, artists, artistsong, like,dislike, "DISLIKE" );
 	  
   }
   System.out.println("1- "+users.size()+"- "+artists.size()+" - "+like.size()+" - "+ songs.size());
   int lilly=0;
   for(int i=0;i<artists.size();i++) {
 	 // System.out.println("artistname: "+artists.get(i).getName());
-	 tagsPerArtist(artists.get(i), relations,tags, 5 );
-	  if(artists.get(i).getMbid().isEmpty()) lilly++;
+	 tagsPerArtist(artists.get(i), relations,tags, 4 );
+	  //if(artists.get(i).getMbid().isEmpty()) lilly++;
   }
   System.out.println("artists null: "+lilly+" full: "+(songs.size()-lilly) );
   lilly=0;
   for(int i=0;i<songs.size();i++) {
 	  //System.out.println("songname: "+ songs.get(i).getName()+"artist: "+songs.get(i).getArtist() );
-	  tagsPerSongs(songs.get(i), relations2, tags, 5);
-	  if(songs.get(i).getMbid().isEmpty()) lilly++;
+	  tagsPerSongs(songs.get(i), relations2, tags, 4);
+	 // if(songs.get(i).getMbid().isEmpty()) lilly++;
   }
   
   System.out.println("songs null: "+lilly+" full: "+( songs.size()-lilly ));
@@ -169,9 +170,9 @@ public class AskToLastFm {
 						//toAdd.setName(intra.item(l).getTextContent());
 						System.out.println("taaaaag: "+intra.item(l).getTextContent());
 						toAdd.setName(intra.item(l).getTextContent());
-						if(!tags.contains(toAdd)) {
+						//if(!tags.contains(toAdd)) {
 							tags.add(toAdd);
-						}
+						//}
 						
 						relation.setTag(intra.item(l).getTextContent() );
 						relation.setLabel(song.getMbid());
@@ -182,7 +183,7 @@ public class AskToLastFm {
 				}				
 			}
 			
-			TimeUnit.MILLISECONDS.sleep(111);
+			//TimeUnit.MILLISECONDS.sleep(111);
 			in.close();
 		    	     
 		     
@@ -246,11 +247,11 @@ public class AskToLastFm {
 						// THIS IS THE NAME OF THE SONGS OUR USERS LIKE
 						//System.out.println("porco"+intra.item(l).getTextContent() ); 
 						//toAdd.setName(intra.item(l).getTextContent());
-						System.out.println("taaaaag: "+intra.item(l).getTextContent());
+						//System.out.println("taaaaag: "+intra.item(l).getTextContent());
 						toAdd.setName(intra.item(l).getTextContent());
-						if(!tags.contains(toAdd)) {
+						//if(!tags.contains(toAdd)) {
 							tags.add(toAdd);
-						}
+						//}
 						relation.setTag(intra.item(l).getTextContent() );
 						relation.setLabel(artist.getMbid());
 						relations.add(relation);
@@ -259,7 +260,7 @@ public class AskToLastFm {
 				}				
 			}
 			
-			TimeUnit.MILLISECONDS.sleep(111);
+			//TimeUnit.MILLISECONDS.sleep(111);
 			in.close();
 		    	     
 		     
@@ -342,7 +343,7 @@ public class AskToLastFm {
 				//table.add(((Element) nList.item(i)).getAttribute("id"));
 				//System.out.println(table.get(i));
 			}
-			TimeUnit.MILLISECONDS.sleep(111);
+			//TimeUnit.MILLISECONDS.sleep(111);
 			searchUsers( idUsers.get( idUsers.size()-nList.getLength()+1 ), lim, idUsers, users );
 			in.close();
 		    	     
@@ -481,7 +482,7 @@ public class AskToLastFm {
 					}
 				//}
 			}
-			TimeUnit.MILLISECONDS.sleep(111);
+			//TimeUnit.MILLISECONDS.sleep(111);
 			in.close();
 		    	     
 		     
@@ -491,6 +492,8 @@ public class AskToLastFm {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		} catch(SAXParseException e) {
+			//return null;
 		}
 	 
  }

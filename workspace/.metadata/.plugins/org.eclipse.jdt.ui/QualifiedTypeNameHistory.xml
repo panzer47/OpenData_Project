@@ -21,12 +21,19 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.ModelFactory"/>
-<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.Model"/>
 <fullyQualifiedTypeName name="Datatypes.Artist"/>
-<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.Resource"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
-<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.Property"/>
 <fullyQualifiedTypeName name="Datatypes.ArtistSong"/>
 <fullyQualifiedTypeName name="Datatypes.Dislike"/>
 <fullyQualifiedTypeName name="Datatypes.SongDescribed"/>
+<fullyQualifiedTypeName name="org.xml.sax.SAXParseException"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.query.Dataset"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.tdb.TDBFactory"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.Model"/>
+<fullyQualifiedTypeName name="org.apache.jena.riot.RDFDataMgr"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.Resource"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.Property"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.StmtIterator"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.Selector"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.SimpleSelector"/>
 </qualifiedTypeNameHistroy>
