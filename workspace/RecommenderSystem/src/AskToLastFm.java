@@ -10,8 +10,6 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -61,7 +59,7 @@ public class AskToLastFm {
  
  public static void main(String[] args) throws ParserConfigurationException, SAXException, InterruptedException, IOException  {
 	//String tempurl="http://ws.audioscrobbler.com/2.0/?method=user.getplaylists&user=panzerr&api_key=ac24a17112b7bcc80ffe29c96d5f6588&format=json";
-	 String id="rj"; int lim=400;
+	 String id="rj"; int lim=4;
 	 ArrayList<String> listIDusers=new ArrayList<String>();
 	 List<User> users=new ArrayList<User>();
 	 List<Artist> artists=new ArrayList<Artist>();
@@ -76,8 +74,8 @@ public class AskToLastFm {
      searchUsers(id, lim, listIDusers, users);
  // System.out.println("trololol + "+listIDusers.size()+"- "+users.get(19).getSex());
   for(int i=0; i<listIDusers.size();i++) {
-	  searchLikes(listIDusers.get(i), 100, songs, artists, artistsong, like, dislike, "LIKE" );
-	  searchLikes(listIDusers.get(i), 100, songs, artists, artistsong, like,dislike, "DISLIKE" );
+	  searchLikes(listIDusers.get(i), 4, songs, artists, artistsong, like, dislike, "LIKE" );
+	  searchLikes(listIDusers.get(i), 4, songs, artists, artistsong, like,dislike, "DISLIKE" );
 	  
   }
   System.out.println("1- "+users.size()+"- "+artists.size()+" - "+like.size()+" - "+ songs.size());
@@ -165,25 +163,23 @@ public class AskToLastFm {
 					
 					
 					if(intra.item(l).getNodeName().equals("name")) {
-						// THIS IS THE NAME OF THE SONGS OUR USERS LIKE
-						//System.out.println("porco"+intra.item(l).getTextContent() ); 
-						//toAdd.setName(intra.item(l).getTextContent());
+						
 						System.out.println("taaaaag: "+intra.item(l).getTextContent());
 						toAdd.setName(intra.item(l).getTextContent());
-						//if(!tags.contains(toAdd)) {
+					
 							tags.add(toAdd);
-						//}
+					
 						
 						relation.setTag(intra.item(l).getTextContent() );
 						relation.setLabel(song.getMbid());
 						relations.add(relation);
-						//relations.add(relation);
+					
 						tagFounded++;
 					}
 				}				
 			}
 			
-			//TimeUnit.MILLISECONDS.sleep(111);
+		
 			in.close();
 		    	     
 		     
@@ -231,12 +227,9 @@ public class AskToLastFm {
 			System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
 			
 			NodeList nList = doc.getElementsByTagName("tag");
-			//System.out.println(nList.getLength());
-			//String classes[]=new String[nList.getLength()];
+			
 			for(int i=0;i<nList.getLength();i++){			
-				//System.out.println( ((Element) nList.item(i)).getAttribute("id"));
-				//System.out.println(  nList.item(i).g );
-				//System.out.println(  );
+				
 				NodeList intra=nList.item(i).getChildNodes();
 				Tag toAdd=new Tag();
 				ArtistDescribed relation=new ArtistDescribed();
@@ -245,9 +238,7 @@ public class AskToLastFm {
 					
 					if(intra.item(l).getNodeName().equals("name")) {
 						// THIS IS THE NAME OF THE SONGS OUR USERS LIKE
-						//System.out.println("porco"+intra.item(l).getTextContent() ); 
-						//toAdd.setName(intra.item(l).getTextContent());
-						//System.out.println("taaaaag: "+intra.item(l).getTextContent());
+						
 						toAdd.setName(intra.item(l).getTextContent());
 						//if(!tags.contains(toAdd)) {
 							tags.add(toAdd);
@@ -259,8 +250,6 @@ public class AskToLastFm {
 					}
 				}				
 			}
-			
-			//TimeUnit.MILLISECONDS.sleep(111);
 			in.close();
 		    	     
 		     
@@ -299,7 +288,7 @@ public class AskToLastFm {
 			        new InputStreamReader(con.getInputStream()));
 			InputSource input = new InputSource(in);
 			
-			//ArrayList<String> idUsers=new ArrayList<String>();
+			
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			Document doc = dBuilder.parse(input);
@@ -314,8 +303,7 @@ public class AskToLastFm {
 			System.out.println(nList.getLength());
 			String classes[]=new String[nList.getLength()];
 			for(int i=0;i<nList.getLength();i++){			
-				//System.out.println( ((Element) nList.item(i)).getAttribute("id"));
-				//System.out.println(  nList.item(i).g );
+				
 				
 				if(!idUsers.contains(nList.item(i).getTextContent() )) {
 					lim--;
@@ -337,13 +325,9 @@ public class AskToLastFm {
 						userI.setCountry(country.item(i).getTextContent() );
 						users.add(userI);
 				}
-				//classes[i]=((Element) nList.item(i)).getAttribute("id");
 				
-				//ArrayList<String> table=new ArrayList();
-				//table.add(((Element) nList.item(i)).getAttribute("id"));
-				//System.out.println(table.get(i));
 			}
-			//TimeUnit.MILLISECONDS.sleep(111);
+			
 			searchUsers( idUsers.get( idUsers.size()-nList.getLength()+1 ), lim, idUsers, users );
 			in.close();
 		    	     
@@ -372,7 +356,7 @@ public class AskToLastFm {
 			
 			HttpURLConnection con = (HttpURLConnection) url.openConnection();
 	 
-			// optional default is GET
+			
 			con.setRequestMethod("GET");
 	 
 			//add request header
@@ -389,45 +373,42 @@ public class AskToLastFm {
 			        new InputStreamReader(con.getInputStream()));
 			InputSource input = new InputSource(in);
 			
-			//ArrayList<String> idUsers=new ArrayList<String>();
+			
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			Document doc = dBuilder.parse(input);
 			doc.getDocumentElement().normalize();
-			//LastFM obj=new LastFM();
+			
 			System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
 			
 			NodeList nList = doc.getElementsByTagName("track");
-			//nList.
-			//nList.item(2).
+		
 			System.out.println(nList.getLength());
-			//String classes[]=new String[nList.getLength()];
+			
 			for(int i=0;i<nList.getLength();i++){			
-				//System.out.println( ((Element) nList.item(i)).getAttribute("id"));
-				//System.out.println(  nList.item(i).g );
-				//System.out.println(  );
+			
 				NodeList intra=nList.item(i).getChildNodes();
 				Song toAdd=new Song();
-				//toAdd.setMbid("NULL");
+			
 				Artist a=new Artist();
-			//	a.setMbid("NULL");
+		
 				for(int l=0; l<intra.getLength();l++) {
 						
 					if(intra.item(l).getNodeName().equals("name")) {
 						// THIS IS THE NAME OF THE SONGS OUR USERS LIKE
-						//System.out.println("porco"+intra.item(l).getTextContent() ); 
+						
 						toAdd.setName(intra.item(l).getTextContent());
 						
 					}else if(intra.item(l).getNodeName().equals("artist")) {
 						NodeList temp=intra.item(l).getChildNodes();
 						for(int k=0;k<temp.getLength();k++) {
 							if(temp.item(k).getNodeName().equals("name")){ 
-								//System.out.println( "madonna "+temp.item(k).getTextContent() );// THIS IS THE ARTIST OF THE SONG
+								
 							//THIS ARE THE ARTISTS OF THE SONGS THAT OUR USER LIKE
 								toAdd.setArtist(temp.item(k).getTextContent());
 							
 								a.setName(temp.item(k).getTextContent());
-								//System.out.println("santissima "+a.getName());
+								
 							}else if(temp.item(k).getNodeName().equals("mbid")) {
 								a.setMbid(temp.item(k).getTextContent());
 							}
@@ -439,7 +420,7 @@ public class AskToLastFm {
 					
 				}
 				boolean found=false;
-			//	if(!toAdd.getMbid().equals("NULL") && !a.getMbid().equals("NULL")) {
+		
 					for(int j=0; j<song.size();j++){
 						if(song.get(j).getName().equals(toAdd.getName())) {
 							found=true;
@@ -447,9 +428,7 @@ public class AskToLastFm {
 					}
 					if(a.getMbid().length()>0 && toAdd.getMbid().length()>0) {
 					if (!found) song.add(toAdd);
-					/*if(!song.contains(toAdd)){
-						song.add(toAdd);					
-					}*/
+					
 					found=false;
 					for(int j=0; j<artist.size();j++){
 						if(artist.get(j).getName().equals(a.getName())) {
@@ -457,22 +436,19 @@ public class AskToLastFm {
 						}
 					}
 					if(!found) artist.add(a);
-					/*
-					if(!artist.contains(a) ){					
-						artist.add(a);					
-					}*/
+					
 					
 					if (type.equals("LIKE")){
 						Like newLike= new Like();
 						newLike.setIdUser(user);
 						newLike.setSong(toAdd.getMbid());
-						//newLike.setTypeRelation(type);
+						
 						likes.add(newLike);
 					}else{
 						Dislike dlike= new Dislike();
 						dlike.setIdUser(user);
 						dlike.setSong(toAdd.getMbid());
-						//newLike.setTypeRelation(type);
+						
 						dislike.add(dlike);
 					}
 						ArtistSong relation=new ArtistSong();
@@ -480,9 +456,9 @@ public class AskToLastFm {
 						relation.setIdSong(toAdd.getMbid());
 						artistsong.add(relation);
 					}
-				//}
+				
 			}
-			//TimeUnit.MILLISECONDS.sleep(111);
+		
 			in.close();
 		    	     
 		     

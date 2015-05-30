@@ -36,31 +36,7 @@ public class WriteTriples {
 	public static void buildTriples(List<Object> fullList)
 			throws ParserConfigurationException, SAXException, IOException {
 		Model m = ModelFactory.createDefaultModel();
-		//Dataset dataset= TDBFactory.createDataset("Dataset");
-		// Resource
-		// r=m.createResource("http://www.example.com/laputtanadituamadre" );
-		// Property sex=m.createProperty("http://example.org/ontology/sex");
-		// r.addProperty(sex, "maseisicuro?");
-
-		/*
-		 * for(int i=0;i<fullList.size(); i++) { // I FIRST WRITE CLASSES
-		 * 
-		 * //String classes[]=new String[nList.getLength()]; for(int
-		 * l=0;l<nList.getLength();l++){ //System.out.println( ((Element)
-		 * nList.item(l)).getAttribute("id")); String classes=((Element)
-		 * nList.item(l)).getAttribute("id"); //System.out.println(
-		 * fullList.get(i).getClass().toString() ); String
-		 * individual=fullList.get(i).getClass().toString();
-		 * individual=individual.substring(16);//5+1+10 if (
-		 * individual.equals(classes) ) { System.out.println("yuppie"+classes);
-		 * String[] values=fullList.get(i).toString().split("/");
-		 * 
-		 * for(int j=0;j<values.length;j++) {
-		 * 
-		 * } }
-		 * 
-		 * }
-		 */
+		
 		long identifier = 0;
 		for (int ii = 0; ii < fullList.size(); ii++) {
 			File xml = new File("cfg/lastFM.xml");
@@ -82,8 +58,7 @@ public class WriteTriples {
 				individual = individual.substring(16);// 5+1+10
 				if (individual.equals(nomeClasseJava)) {
 					// QUI HO TROVATO IL NOME CLASSE JAVA SULLXML
-					// System.out.println("yuppieMADONNASBORROSANGUEDICERVO"+nomeClasseJava);
- 
+				
 					classetrovata = true;
 					ArrayList<String> name = new ArrayList<String>();
 					ArrayList<String> position = new ArrayList<String>();
@@ -95,38 +70,28 @@ public class WriteTriples {
 					NodeList childs = nList.item(i).getChildNodes();
 					
 					for (int l = 0; l < childs.getLength(); l++) {
-						// System.out.println( childs.item(l).getNodeName()+" 2"
-						// );
-
-						// Resource r;
+						
 						if (childs.item(l).getNodeName().equals("url")) {
 							// NOME URL CLASSE
 							identifier++;
-							// r=m.createResource(childs.item(l).getTextContent()+identifier
-							// );
-							// Property
-							// sex=m.createProperty("http://example.org/ontology/sex");
-							// r.addProperty(sex, "maseisicuro?");
+							
 							urlResource = childs.item(l).getTextContent();
-							// System.out.println(childs.item(l).getTextContent());
+							
 						} else if (childs.item(l).getNodeName()
 								.equals("output")) {
 							for (int w = 0; w < childs.item(l).getChildNodes()
 									.getLength(); w++) {
 								// NOMEATTRIBUTO
-								// System.out.println(childs.item(l).getChildNodes().item(w).getNodeName());
+								
 								if (childs.item(l).getChildNodes().item(w)
 										.getNodeName().equals("name")) {
 
-									// System.out.println(
-									// childs.item(l).getChildNodes().item(w).getTextContent()+"name");
 									name.add(childs.item(l).getChildNodes()
 											.item(w).getTextContent());
 								} else if (childs.item(l).getChildNodes()
 										.item(w).getNodeName()
 										.equals("position")) {
-									// System.out.println(
-									// childs.item(l).getChildNodes().item(w).getTextContent()+"position");
+									
 									position.add(childs.item(l).getChildNodes()
 											.item(w).getTextContent());
 								} else if (childs.item(l).getChildNodes()
@@ -167,8 +132,7 @@ public class WriteTriples {
 			for (int i = 0; (i < relations.getLength()&&trovato==false); i++) {
 				System.out.println(((Element) relations.item(i))
 						.getAttribute("id"));
-				// classes[i] = ((Element)
-				// relations.item(i)).getAttribute("id");
+				
 				String individual = fullList.get(ii).getClass().toString();
 				individual = individual.substring(16);
 				String url="", origin="", destination="";
@@ -180,18 +144,15 @@ public class WriteTriples {
 					NodeList childs = relations.item(i).getChildNodes();
 					for (int l = 0; l < childs.getLength(); l++) {
 						if (childs.item(l).getNodeName().equals("url")) {
-							//System.out.println(childs.item(l).getTextContent()
-								//	+ "url");
+							
 							url=childs.item(l).getTextContent();
 						} else if (childs.item(l).getNodeName()
 								.equals("origin")) {
-							//System.out.println(childs.item(l).getTextContent()
-								//	+ "origin");
+							
 							origin=childs.item(l).getTextContent();
 						} else if (childs.item(l).getNodeName()
 								.equals("destination")) {
-							//System.out.println(childs.item(l).getTextContent()
-								//	+ "destinescion");
+							
 							destination=childs.item(l).getTextContent();
 						}
 					}
@@ -203,7 +164,7 @@ public class WriteTriples {
 					
 					Resource or=m.getResource(origin+"/"+relazione[0]);
 					Resource des=m.getResource(destination+"/"+relazione[1]);
-					//or.addP
+					
 					Property p=m.createProperty(url);
 					or.addProperty(p, des);
 					
@@ -218,27 +179,5 @@ public class WriteTriples {
 		//dataset.close();
 	}
 
-	public static void readXML(String toSearch)
-			throws ParserConfigurationException, SAXException, IOException {
-		File xml = new File("cfg/lastFM.xml");
-		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-		DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-		Document doc = dBuilder.parse(xml);
-		doc.getDocumentElement().normalize();
-		LastFM obj = new LastFM();
-		// System.out.println("Root element :" +
-		// doc.getDocumentElement().getNodeName());
-
-		NodeList nList = doc.getElementsByTagName("Class");
-
-		String classes[] = new String[nList.getLength()];
-		for (int i = 0; i < nList.getLength(); i++) {
-			System.out.println(((Element) nList.item(i)).getAttribute("id"));
-			classes[i] = ((Element) nList.item(i)).getAttribute("id");
-			ArrayList<String> table = new ArrayList();
-			table.add(((Element) nList.item(i)).getAttribute("id"));
-		}
-
-	}
 
 }

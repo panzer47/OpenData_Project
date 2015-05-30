@@ -36,4 +36,13 @@
 <fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.StmtIterator"/>
 <fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.Selector"/>
 <fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.SimpleSelector"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.query.QueryFactory"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.query.Query"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.query.ResultSet"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.query.QueryExecutionFactory"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.query.QueryExecution"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.query.ResultSetFormatter"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.query.ResultSetFactory"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 </qualifiedTypeNameHistroy>

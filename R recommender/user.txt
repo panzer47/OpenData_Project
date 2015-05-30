@@ -1,0 +1,8 @@
+user,like,dislike
+6666,http://www.example.com/Song/b5fa0826-76c6-488d-9c65-657c46346172,
+6666,http://www.example.com/Song/6e7fb2cc-c248-428f-bf97-9faaf3e2c63c,
+6666,http://www.example.com/Song/66bdbd57-b6f2-46f4-a868-c00716dd84e3,
+6666,http://www.example.com/Song/8fb78594-4012-466f-8fbf-fcfd69c903ae,
+6666,,http://www.example.com/Song/cfba475a-3b32-4eea-9b57-018d949c1f46
+6666,,http://www.example.com/Song/737d1231-c49b-4655-8bbe-ee164e8f5f1a
+6666,,http://www.example.com/Song/bf7b46df-afa2-4168-b65b-8321e11862a6
